@@ -1,0 +1,4569 @@
+Python:-
+-> Python is a simple, general purpose, high level, and object-oriented programming language.
+
+-> Python is an interpreted scripting language also. Guido Van Rossum is known as the founder of Python programming.
+
+-> It supports Object Oriented programming approach to develop applications. It is simple and easy to learn and provides lots of high-level data structures.
+
+-> Python's syntax and dynamic typing with its interpreted nature make it an ideal language for scripting and rapid application development.
+a=10
+
+->Python supports multiple programming pattern, including object-oriented, imperative, and functional or procedural programming styles.
+
+->Python is not intended to work in a particular area, such as web programming. That is why it is known as multipurpose programming language because it can be used with web, enterprise, 3D CAD, etc.
+
+-> We don't need to use data types to declare variable because it is dynamically typed so we can write a=10 to assign an integer value in an integer variable.
+
+in c programing
+int a=10;
+
+void main(){
+	
+
+}
+
+in python programing
+a=10
+-> curly braket not used in python 
+{
+	
+}
+
+void main():
+	
+	
+
+
+->Python makes the development and debugging fast because there is no compilation step included in Python development, and edit-test-debug cycle is very fast.
+
+Python 2 vs. Python 3:-
+ differences between Python 2 and Python 3
+
+
+ 1.Python 2 uses print as a statement and used as print "something" to print some string on the console. On the other hand, Python 3 uses print as a function and used as print("something") to print something on the console.
+
+
+print "hello aryan"//2
+print("something") //3
+
+
+
+2.Python 2 uses the function raw_input() to accept the user's input. It returns the string representing the value, which is typed by the user. To convert it into the integer, we need to use the int() function in Python. On the other hand, Python 3 uses input() function which automatically interpreted the type of input entered by the user. However, we can cast this value to any type by using primitive functions (int(), str(), etc.).
+ a=int(raw_input("enter one number")) 10
+  b=int(raw_input("enter one number")) 20
+print(a+b)#30
+ a=raw_input("enter your name") pankaj
+3.In Python 2, the implicit string type is ASCII, whereas, in Python 3, the implicit string type is Unicode.
+
+4.Python 3 doesn't contain the xrange() function of Python 2. The xrange() is the variant of range() function which returns a xrange object that works similar to Java iterator. The range() returns a list for example the function range(0,3) contains 0, 1, 2.
+
+range(1,40) #1 to 39 
+5.There is also a small change made in Exception handling in Python 3. It defines a keyword as which is necessary to be used
+
+in c:-
+
+#include<stdio.h>
+int main(){
+
+	printf("hello");
+	return 0;
+}
+
+
+
+in python:-
+
+print("Hello World")
+
+a=20
+
+
+
+Python Basic Syntax:-
+
+ There is no use of curly braces ({}) or semicolon(;) in Python programming language. It is English-like language. But Python uses the indentation to define a block of code. Indentation is nothing but adding whitespace before the statement when it is needed.
+
+def func():  
+       statement 1  
+       statement 2  
+       …………………  
+       …………………  
+         statement N 
+
+
+
+in c:-
+if(condition){
+	st;
+}
+else{
+	st;
+}
+
+
+
+in python:
+
+if condition:
+   st
+else: 
+   st
+
+
+how to save python file:
+
+filename.py
+demo.py
+
+Why learn Python?
+
+Easy to use and Learn
+Expressive Language
+Interpreted Language
+Object-Oriented Language
+Open Source Language
+Extensible
+Learn Standard Library
+GUI Programming Support
+Integrated
+Embeddable
+Dynamic Memory Allocation
+Wide Range of Libraries and Frameworks
+
+
+
+
+
+Where is Python used?
+Python is a general-purpose, popular programming language and it is used in almost every technical field. The various areas of Python use are given below.
+
+Data Science
+Date Mining
+Desktop Applications
+Console-based Applications
+Mobile Applications
+Software Development
+Artificial Intelligence
+Web Applications
+Enterprise Applications
+3D CAD Applications
+Machine Learning
+Computer Vision or Image Processing Applications.
+Speech Recognitions
+
+
+
+Python Popular Frameworks and Libraries
+
+
+Python has wide range of libraries and frameworks widely used in various fields such as machine learning, artificial intelligence, web applications, etc. We define some popular frameworks and libraries of Python as follows.
+
+Web development (Server-side) - Django Flask, Pyramid, CherryPy
+GUIs based applications - Tk, PyGTK, PyQt, PyJs, etc.
+Machine Learning - TensorFlow, PyTorch, Scikit-learn, Matplotlib, Scipy, etc.
+Mathematics - Numpy, Pandas, etc.
+
+
+The print() function displays the given object to the standard output device (screen) or to the text stream file.
+
+print("welcome to lavya computer classes")
+
+a=10
+print("a is=",a)
+o/p:
+ a is=10
+
+b=a;
+
+
+print('a =',a,'=b')
+
+o/p:-
+welcome to lavya computer classes
+a is=10
+a=10=b
+
+Taking Input from the User:-
+Python provides the input() function which is used to take input from the user.
+
+example:
+name = input("Enter a name of student:") pankaj 
+print("The student name is: ", name)
+
+
+
+By default, the input() function takes the string input but what if we want to take other data types as an input.
+
+If we want to take input as an integer number, we need to typecast the input() function into an integer.
+
+
+a=int(input("enter any value"))  100
+
+a  = int(input("Enter first number: "))
+b = int(input("Enter second number: "))    
+print(a+b)  
+
+
+We can take any type of values using input() function.
+
+
+Plot no.2, Akshay complex, opp. 4 no. dispensary,
+hatwada road,sodala jaipur pin 302006.
+
+
+Python Operators:-
+
+
+Operators are the symbols which perform various operations on Python objects. Python operators are the most essential to work with the Python data types. In addition, Python also provides identify membership and bitwise operators.
+
+
+
+operator in python:
+The operator can be defined as a symbol which is responsible for a particular operation between two operands. Operators are the pillars of a program on which the logic is built in a specific programming language. Python provides a variety of operators.
+
+10 * 20  #10 and 20 are oprands or + is a operator
+a=90
+
+types of optr:
+
+Arithmetic operators(+,-,*,/,%)
+Comparison operators(<,>,<=,>=,==,!=)
+Assignment Operators(=,+=,-=,*=,/=,**=,//=)
+Logical Operators (and,or,not)
+Bitwise Operators(&,|,^,>>,<<,~)
+Membership Operators in 
+Identity Operators is is not
+
+
+a) arthmetic opter:(+,-,*,/,%,**,//)
+
+exponent optr **
+2**3=8
+3.3**3=35.937
+a=2
+b=3
+c=a**b
+print(c)  //8
+
+
+floor optr:
+101//4 =25
+
+Asignment optr:
+
+examples:
+a=290
+b=30
+c=a%b
+print(c)
+
+
+example:2
+
+a=20
+a += 50
+print(a) #70
+
+b=200
+b -= 90
+print(b) #110
+
+
+
+c=200
+c *= 10
+print(c) #2000
+
+
+
+d=20
+d /= 10
+print(d) #2
+
+
+
+e=20
+e %= 10
+print(e) #0
+
+
+e=21
+e %= 10
+print(e) #1
+
+
+
+
+Membership Operators
+
+Python membership operators are used to check the membership of value inside a Python data structure. If the value is present in the data structure, then the resulting value is true otherwise it returns false.
+
+Operator	Description
+
+in	        It is evaluated to be true if the first operand is found in the second      
+            operand (list, tuple, or dictionary).
+
+not in	    It is evaluated to be true if the first operand is not found in the secon
+              operand (list, tuple, or dictionary).
+
+
+Identity Operators
+
+The identity operators are used to decide whether an element certain class or type.
+
+Operator	Description
+is	        It is evaluated to be true if the reference present at both sides point to 
+            the same object.
+
+is not	   It is evaluated to be true if the reference present at both sides do not 
+           point to the same object.
+
+
+
+
+
+Python Comments:-
+
+Introduction to Python Comments
+We may wish to describe the code we develop. We might wish to take notes of why a section of script functions, for instance. We leverage the remarks to accomplish this. Formulas, procedures, and sophisticated business logic are typically explained with comments. The Python interpreter overlooks the remarks and solely interprets the script when running a program. Single-line comments, multi-line comments, and documentation strings are the 3 types of comments in Python.
+
+Advantages of Using Comments
+Our code is more comprehensible when we use comments in it. It assists us in recalling why specific sections of code were created by making the program more understandable.
+
+Aside from that, we can leverage comments to overlook specific code while evaluating other code sections. This simple technique stops some lines from running or creates a fast pseudo-code for the program.
+
+
+Below are some of the most common uses for comments:
+
+Readability of the Code
+Restrict code execution
+Provide an overview of the program or project metadata
+To add resources to the code
+Types of Comments in Python
+In Python, there are 3 types of comments. They are described below:
+
+Single-Line Comments
+Single-line remarks in Python have shown to be effective for providing quick descriptions for parameters, function definitions, and expressions. A single-line comment of Python is the one that has a hashtag # at the beginning of it and continues until the finish of the line. If the comment continues to the next line, add a hashtag to the subsequent line and resume the conversation. Consider the accompanying code snippet, which shows how to use a single line comment:
+
+Code
+
+# This code is to show an example of a single-line comment  
+print( 'This statement does not have a hashtag before it' ) #jhjjgjh 
+Output:
+
+This statement does not have a hashtag before it
+The following is the comment:
+
+# This code is to show an example of a single-line comment  
+The Python compiler ignores this line.
+
+Everything following the # is omitted. As a result, we may put the program mentioned above in one line as follows:
+
+Code
+
+print( 'This is not a comment' ) # this code is to show an example of a single-line comment  
+Output:
+
+This is not a comment
+This program's output will be identical to the example above. The computer overlooks all content following #.
+
+Multi-Line Comments
+Python does not provide the facility for multi-line comments. However, there are indeed many ways to create multi-line comments.
+
+With Multiple Hashtags (#)
+
+In Python, we may use hashtags (#) multiple times to construct multiple lines of comments. Every line with a (#) before it will be regarded as a single-line comment.
+
+Code
+
+# it is a  
+# comment  
+# extending to multiple lines  
+In this case, each line is considered a comment, and they are all omitted.
+
+Using String Literals
+
+Because Python overlooks string expressions that aren't allocated to a variable, we can utilize them as comments.
+
+Code
+
+'it is a comment extending to multiple lines'
+
+We can observe that on running this code, there will be no output; thus, we utilize the strings inside triple quotes(""") as multi-line comments.
+
+Python Docstring
+The strings enclosed in triple quotes that come immediately after the defined function are called Python docstring. It's designed to link documentation developed for Python modules, methods, classes, and functions together. It's placed just beneath the function, module, or class to explain what they perform. The docstring is then readily accessible in Python using the __doc__ attribute.
+
+Code
+
+# Code to show how we use docstrings in Python  
+  
+def add(x, y):  
+    """This function adds the values of x and y"""  
+    return x + y  
+   
+# Displaying the docstring of the add function  
+print( add.__doc__ )  
+Output:
+
+
+
+This function adds the values of x and y
+
+
+
+Date Type:- it is used to identify which type of data is stored in a variable.in python no need to define type of data it automatically check.
+
+c program
+
+int x = 10;
+char y='p';
+
+python program
+    x=30
+    x="ram"
+    x=4.5
+    y='o'
+
+
+
+
+
+Python have these data types:
+
+strings - used to represent text data, the text is given under quote marks. e.g. "ABCD",
+"mohan how are you","1234"
+
+integer - used to represent integer numbers. e.g. 1,2,3,4,-1, -2, -3
+float - used to represent real numbers. e.g. 1.2, 42.42.5.0,6.5
+boolean - used to represent True or False.
+complex - used to represent complex numbers. e.g. 1.0 + 2.0j, 1.5 + 2.5j
+
+
+
+Data Types in NumPy-
+
+i - integer
+b - boolean
+u - unsigned integer
+f - float
+c - complex float
+m - timedelta
+M - datetime
+O - object
+S - string
+U - unicode string
+V - fixed chunk of memory for other type ( void )
+
+
+
+
+Checking the Data Type of an Array
+The NumPy array object has a property called dtype that returns the data type of the array:
+
+Example
+Get the data type of an array object:
+
+
+import numpy as np
+
+arr = np.array([1, 2, 3, 4])
+
+print(arr.dtype)
+
+
+
+
+
+variable:- used to store data and it save the data temp.and can hold a single value.
+
+a=10 #a is a variable that have a value 10
+
+
+variable types:
+
+local variable
+global variable
+
+
+local variable:- variable that is declared inside the function known as local variable.its value can only used inside the function not outside the function
+
+
+
+
+in c program:
+
+void main(){
+	int a=10; // a is local
+printf("%d",a);
+
+}
+
+
+in python:
+
+def rajasthan():
+   x=20
+   print(x)
+
+print(x) #give you error
+
+
+global variable: variable that is declared outside the function known as global variable.its value can used  anywhere in the program 
+
+
+ x=20  #x is global
+def demo():
+    print(x)
+
+print(x) 
+demo()
+
+
+
+CONTROL STATEMENT:- TASK THAT PERFORM ACCORDING TO THE CONDITION COME INSIDE THE CONTROL STATEMENT
+
+if
+if-else
+if-el-if
+switch
+loop;
+
+
+
+if statement:-it exicute when condition is true
+
+syntax:
+if condition:
+   statement
+
+example:
+
+age=24
+if age>=18:
+   print("eligible to vote")   
+
+a=2
+b=2
+if a==b:
+   print("both are equal")
+
+x=24
+if x>=0:
+  print("positive number")
+
+
+num=22
+if num%2==0:
+  print("even number")
+
+
+
+
+if-else statement:-when condition is false then else statement will exicute.
+
+
+
+
+if condition:
+   statemnt
+else: 
+    statement   
+
+
+
+example:
+
+num =-1
+if num>=0:
+   print("positive")
+else:
+   print("negative")
+
+
+
+
+
+num1=20
+num2=30
+if num1==num2:
+   print("both are eql")
+else:
+   print("not equal")
+
+
+
+
+num1=20
+
+if num1%2==0:
+   print("even")
+else:
+   print("odd number")
+
+
+
+
+
+
+num1=20
+num2=30
+if num1>num2:
+   print("num1 is grater")
+else:
+   print("num2 is grater")
+
+
+
+
+
+vowel='x'
+if vowel=='a' or vowel=='e' or vowel=='i' or vowel=='o' or vowel=='u':
+   print("vowels")
+else:
+   print("consonent")
+
+
+in c:- 
+
+if(condi){
+	st
+}
+else if(condi){
+	st
+}
+else if(condi){
+	st
+}
+.
+.
+else{
+	
+}
+
+
+
+if elif statement: if we have more then one condition then we have to use this statement, in more condition one can true ,that condition is true print that statement,otherwise it will print else statement
+
+syntax:
+
+if condition:
+   statement
+
+elif condition:
+   statement
+
+elif  condition:
+   statement
+
+elif  condition:
+   statement
+
+else:
+   statement
+
+
+
+wap to find maximum value among three number
+
+a=58
+b=5
+c=59  
+if a>b and a>c:
+   print("a is grater")
+
+elif b>a and b>c:
+   print("b is grater")
+
+elif c>a and c>b:
+   print("c is grater")
+
+else:
+print("all number are equal")
+
+wap to find grade of student accoding to mark
+wap to show signal to the bike rider accoding to bike speed 
+
+
+switch:-in this we have more then one cases in which one can be true.other wise it print the default statement.
+
+
+switch(expresion):
+case value:
+		statement
+		
+
+case value:
+	statement
+	
+
+case value:
+	statement
+	
+.
+.
+.
+default:
+statement
+
+
+example:-1
+
+day=5;
+switch(day):
+ case 1:
+ print("sunday")
+ break
+
+case 2:
+ print("monday")
+ break
+
+case 3:
+ print("tuesday")
+ break
+
+case 4:
+ print("wensday")
+ break
+
+case 5:
+ print("thursday")
+ break
+
+case 6:
+ print("friday")
+ break
+
+case 7:
+ print("sat")
+ break
+default:
+print("not match")
+
+
+
+
+example:-2
+
+demo='i';
+switch(demo):
+ case 'a':
+ print("vowels")
+ break
+
+case 'e':
+ print("vowels")
+ break
+case 'i':
+ print("vowels")
+ break
+
+case 'o':
+ print("vowels")
+ break
+
+case 'u':
+ print("vowels")
+ break
+
+
+default:
+print(consonent)
+
+
+
+
+wap to make simple calculator using python switch
+
+
+x=input("enter operator") # +
+
+y=int(input("number first")) #20
+z=int(input("number second")) #50
+
+switch(x):
+	case '+':
+	print("sum is =",a+b)
+	break
+ 
+ case '-':
+	print("sub is =",a-b)
+	break
+
+	case '*':
+	print("multi is =",a*b)
+	break
+
+	case '/':
+	print("div is =",a/b)
+	break
+	case '%':
+	print("rem  is =",a%b)
+	break
+
+	defalult:
+	print("invalid opertor")
+
+
+
+wap to print grade according to mark using switch
+
+
+
+
+
+loop:- ittration of a task more then one time after a fixed interval known as loop
+
+1 2 3 4 5 6  7.....n
+ 1 1 1 1 1 1
+
+1 3 5 7...n
+ 2 2 2
+
+types of loop
+
+1.for 
+2.while loop
+
+a) for loop: when condition is known where to start and end. like 1 to 10
+
+range(start, end) # end is excluded
+range(1, 10)
+
+ for i in range(1,11):
+    print(i)
+output:    
+    1
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+    10
+
+
+table of any number
+ for i in range(2,22,2):
+    print(i)
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+
+REVERSE NUMBER .
+for i in range(10,0,-1):
+    print(i)
+
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+
+
+
+
+prime number in python:-
+
+num=4
+count=0
+for i in range(1,5):
+   if num%i==0:
+      count++
+
+if count==2:
+   print("prime number")
+else:
+   print("not prime")   
+
+wap to find sum 1 to 30 
+
+sum=0
+for i in range(1,31):
+   sum+=i  
+   print("sum is =",sum)
+  
+wap to find factorial of a number
+fact=1
+for i in range(1,6):
+   fact*=i  
+   print("fact is =",fact)
+  
+
+WHILE LOOP: WHEN CONDITION IS UNKNOWN OR  NOT FIXED
+
+while condition:
+      st
+      inc/dec
+
+
+
+i=1
+while i<=10:
+     print(i)
+     i++
+
+
+i=10
+while i>=1:
+     print(i)
+     i--
+
+
+
+
+wap to check number is armstrong or not.
+
+armstrong number: cube of every digit of a number and then sum,sum is equal to the orignal number.known as armstrong number
+
+153
+1+125+27=153
+
+n=153
+temp=n
+sum=0
+while n>0:
+     rem=n%10
+     sum+=rem*rem*rem
+     n=n/10
+   if sum==temp:
+       print("armstrong")
+   else:
+       print("not armstrong")    
+
+wap to check number is palindrom or not
+
+
+
+
+function :-block of code is known as function that is used to perform a specific task.
+            def keyword is used to declare the function.
+            it provide code reusablity and optimization.
+            'def' keyword is used to define function 
+syntax:
+
+ def function_name():
+     code to exicute.
+
+a=10
+b=20
+c=a+b;
+print(c)
+
+
+a=10
+b=20
+c=a+b;
+print(c)
+
+
+
+a=10
+b=20
+c=a+b;
+print(c)
+
+
+why: no need to write code again and again to perform similar task
+     thats why we make function.
+
+
+
+     type of function:
+
+     1.predefined function(library fun)
+     2.user defined function
+
+predefined function(library fun):- library function are known as predefined function.its name and working is all ready fixed.
+
+print(),input()
+
+
+2.user defined funtion:function that is created by user according to need.known as user defined function, we can provide any name to the function and can perform any task.
+	
+
+
+def demo():
+    print("hello")
+
+
+
+how to call  a function: function is called by function name and followed by the (),we can call a function more then one time.
+
+demo() #hello
+demo() #hello 
+demo() #hello 
+
+how to call function:
+
+basis of argument type of function:-
+1. non parametrized functon
+2. parametrized function
+
+a). non parametrized functon:-
+ if we not pass any arguments in () at the time of function declaration known as non parametrized function.
+
+def demo():
+    print("hello")
+
+    demo()
+
+
+b)parametrized function:- if we pass arguments in () at the time of function declaration.known as parametrized function,we can pass more then one arguments in ()and of any type.
+
+def sum(a,b):
+    print(a+b) #30
+
+
+
+def sum(a,b):
+    c=a+b
+    print(c)
+
+
+
+sum(10,20)  #30
+
+multi  two number
+div two nuber
+sub  two number
+square or cube of one number
+
+
+
+
+
+
+
+
+
+
+
+
+String: group of char is known as string.we can perform many operations with string.like compare,concat,reverse,lower-case,upper-case,copy,length,split...etc
+
+-> we can write string inside single,double and truple quotes 
+''," ",""""""......""""""
+
+->string index start from zero.(0)
+a='ram'
+b="ram is a good boy"
+c="""asif is also a good boy and sin.'''
+
+
+#Using single quotes  
+str1 = 'Hello Python'  
+print(str1)  
+
+#Using double quotes  
+str2 = "Hello Python"  
+print(str2)  
+  
+#Using triple quotes  
+str3 = '''''Triple quotes are generally used for  
+    represent the multiline or 
+    docstring'''   
+print(str3)  
+
+
+ splitting: [start:end]
+
+
+str = "HELLO"  
+print(str[0])  
+print(str[1])  
+print(str[2])  
+print(str[3])  
+print(str[4])  
+# It returns the IndexError because 6th index doesn't exist  
+print(str[6])  
+
+
+str = "HELLO"  
+print(str[:]) #HELLO  
+print(str[0:) #HELLO 
+print(str[:3]) #HEL  
+print(str[:5])  #HELLO
+print(str[2:5]) #LLO  
+
+
+-> RANGE CAN BE NEGATIVE
+str = "HELLO"  
+print(str[-1]) #O  
+print(str[-3]) #L 
+print(str[-2:]) #LO 
+print(str[-4:-1])  #ELL
+
+
+UPDATE(Reassigning Strings):-Updating the content of the strings is as easy as assigning it to a new string. The string object doesn't support item assignment i.e., A string can only be replaced with new string since its content cannot be partially replaced. Strings are immutable in Python.
+
+str = "HELLO"    
+str[0] = "h"    
+print(str)    
+
+O/P:TypeError: 'str' object does not support item assignment
+
+-> the string str can be assigned completely to a new content
+
+str = "HELLO"    
+print(str)    
+str = "hello"    
+print(str)    
+
+
+Output:
+
+HELLO
+hello  
+
+
+Deleting the String:-As we know that strings are immutable. We cannot delete or remove the characters from the string.  But we can delete the entire string using the del keyword.
+
+str = "hello" 
+del str[0]
+o/p:TypeError: 'str' object doesn't support item deletion 
+
+
+-> we can delete the entire string using the del keyword
+str = "hello" 
+del str
+print(str)
+o/pNameError: name 'str1' is not defined
+
+
+
+
+str = "Hello"     
+str1 = " world"    
+print(str*3) # prints HelloHelloHello    
+print(str+str1)# prints Hello world     
+print(str[4]) # prints o                
+print(str[2:4]); # prints ll                    
+print('w' in str) # prints false as w is not present in str    
+print('wo' not in str1) # prints false as wo is present in str1.     
+print(r'C://python37') # prints C://python37 as it is written    
+print("The string str : %s"%(str)) # prints The string str : Hello     
+
+
+String Formatting:-
+suppose we need to write the text as - They said, "Hello what's going on?"- the given statement can be written in single quotes or double quotes but it will raise the SyntaxError as it contains both single and double-quotes.
+
+
+str = "They said, "Hello what's going on?""  
+print(str)  
+o/p
+SyntaxError: invalid syntax
+
+
+
+
+# using triple quotes  
+print('''''They said, "What's there?"''')  
+  
+# escaping single quotes  
+print('They said, "What\'s going on?"')  
+  
+# escaping double quotes  
+print("They said, \"What's going on?\"")  
+
+
+
+
+
+
+
+o/p:They said, "What's there?"
+    They said, "What\'s going on?"
+    They said, "What's going on?"
+
+capitalize():It capitalizes the first character of the String. This function is deprecated  
+            in python3   
+
+            a="ram is a good boy"
+            b=a.capitalize()
+            print("old string is "+a)
+            print("new string is "+b)
+
+upper():	It converts all the characters of a string to Upper Case.  
+
+
+str = "Hello lavya"  
+str2 = str.upper()  
+print(str2) 
+
+
+
+list = ["irfan","sohan","mohan"]  
+for  l in list:  
+    print(l.upper())
+
+O/P:
+    IRFAN SOHAN MOHAN
+
+# Python upper() method   
+# Declaring variables  
+names = ["irfan","sohan","aman","mohan"]  
+vowels = ['a','e','i','o','u'] 
+
+for  l in names:  
+    for v in vowels:  
+        if(l.startswith(v)):  
+            print(l.upper())
+
+
+            O/P IRFAN AMAN
+
+
+startswith(str,beg=0,end=len(str))	It returns a Boolean value if the string starts with given str between begin and end.
+
+
+
+
+str = "Hello lavya"  
+str2 = str.startswith("Hello")  
+print (str2) 
+
+
+
+lower():	It converts all the characters of a string to Lower case.
+
+
+str = "Lavya Computer"  
+
+str = str.lower()  
+
+print(str)  
+
+
+
+
+str = "LAVYA COMPUTER"  
+
+if str.lower() == "lavyacomputer":  
+    print("lowercase")  
+else:  
+    print("not lowercase")  
+
+
+
+isupper()	It returns true if all the characters of the string(if exists) is true otherwise it returns false.
+
+str = "WELCOME TO LAVYA"  
+
+str2 = str.isupper()  
+
+print(str2) 
+
+
+islower()	It returns true if the characters of a string are in lower case, otherwise false.
+
+str = "lavyacomputer"  
+
+str2 = str.islower()  
+
+print(str2) 
+
+
+str = "Welcome To Lavya "  
+
+str2 = str.islower()  
+
+print(str2)  
+
+
+
+isnumeric()	It returns true if the string contains only numeric characters.
+
+
+str = "12345"  
+# Calling function  
+str2 = str.isnumeric()  
+# Displaying result  
+print(str2)  
+
+
+
+
+isspace()	It returns true if the characters of a string are white-space, otherwise false.
+
+
+str = " " # empty string  
+# Calling function  
+str2 = str.isspace()  
+# Displaying result  
+print(str2)
+
+
+join(seq)	It merges the strings representation of the given sequence.
+
+str = ":"   # string  
+list = ['1','2','3']    # iterable  
+# Calling function  
+str2 = str.join(list)  
+# Displaying result  
+print(str2)  
+
+o/p: 1:2:3
+
+
+
+
+
+
+len(string)	It returns the length of a string.
+
+a="welcome to lavya"
+b=len(a)
+print("length is ="+b)
+
+
+
+count(string,begin,end):It counts the number of occurrences of a substring in a String between begin and end index
+str = "Hello lavya computer"  
+str2 = str.count('e')  
+# Displaying result  
+print("occurences:", str2)  
+
+
+str = "ab bc ca de ed ad da ab bc ca"  
+oc = str.count('a')  
+# Displaying result  
+print("occurences:", oc)  
+
+
+find(substring ,beginIndex, endIndex):-It returns the index value of the string where substring is found between begin index and end index.
+
+Python find() method finds substring in the whole string and returns index of the first match. It returns -1 if substring does not match.
+
+
+str = "Welcome to the Javatpoint."  
+# Calling function  
+str2 = str.find("the")  
+# Displaying result  
+print(str2)  
+
+
+str = "Welcome to the lavya computer."  
+# Calling function  
+str2 = str.find("is")  
+# Displaying result  
+print(str2)  
+
+
+
+Python List:-A list in Python is used to store the sequence of various types of data. Python lists are mutable type its mean we can modify its element after it created. However, Python consists of six data-types that are capable to store the sequences, but the most common and reliable type is the list.
+
+A list can be defined as a collection of values or items of different types. The items in the list are separated with the comma (,) and enclosed with the square brackets [].
+
+l1=["ram","shyam","ashif","jasi",101]
+
+type():-use to check the type
+print(type(l1))
+o/p: <class - list>
+
+
+Characteristics of Lists
+The list has the following characteristics:
+
+The lists are ordered.
+The element of the list can access by index.
+The lists are the mutable type.
+The lists are mutable types.
+A list can store the number of various elements.
+
+
+a = [1,2,"Peter",4.50,"Ricky",5,6]  
+b = [1,2,5,"Peter",4.50,"Ricky",6]  
+a == b  
+
+False	
+
+
+List indexing and splitting:-
+The indexing is processed in the same way as it happens with the strings. The elements of the list can be accessed by using the slice operator [].
+
+The index starts from 0 and goes to length - 1. The first element of the list is stored at the 0th index, the second element of the list is stored at the 1st index, and so on.
+
+
+list = [1,2,3,4,5,6,7]
+print(list[0])  
+print(list[1])  
+print(list[2])  
+print(list[3])  
+
+# Slicing the elements  
+
+print(list[0:6])  #123456
+print(list[:])#1234567
+print(list[2:5]) #345
+print(list[1:6:2]) #246
+
+
+list = [1,2,3,4,5]  
+print(list[-1])  #5
+print(list[-3:])  #345
+print(list[:-1])  #1234
+print(list[-3:-1])  #3 4
+
+
+a=[10,20,30,40,50,90]
+           -3  -2 -1
+print(a[2:5]) #30 40 50
+print(a[-2:])
+print(a[-5:-1]) 
+
+
+Updating List values:-Lists are the most versatile data structures in Python since they are mutable, and their values can be updated by using the slice and assignment operator.
+
+Python also provides append() and insert() methods, which can be used to add values to the list.
+
+list = [1, 2, 3, 4, 5, 6]     
+print(list) #123456
+
+# It will assign value to the value to the second index   
+list[2] = 10   
+print(list) #1 2 10 4 5 6   
+
+# Adding multiple-element   
+list[1:3] = [89, 78]     
+print(list)  # 1 89 78 4 5 6  
+# It will add value at the end of the list  
+list[-1] = 25  
+print(list)#[1, 89, 
+78, 4, 5, 25]  
+
+Iterating a Lists:-
+
+list = ["John", "David", "James", "Jonathan"]  
+
+for i in list:   
+    # The i variable will iterate over the elements of the List and contains each element in each iteration. 
+
+    print(i)  
+
+
+Adding elements to the list:-Python provides append() function which is used to add an element to the list. However, the append() function can only add value to the end of the list.
+
+
+
+l =[]  
+n = int(input("Enter the number of elements in the list:"))5  
+for i in range(0,n):     
+    l.append(input("Enter the item:"))     
+
+print("printing the list items..")   
+for i in l:   
+    print(i, end = "  ")     
+
+
+
+
+
+Enter the number of elements in the list:5
+Enter the item:25
+Enter the item:46
+Enter the item:12
+Enter the item:75
+Enter the item:42
+printing the list items
+25  46  12  75  42  
+
+
+Removing elements from the list
+Python provides the remove() function which is used to remove the element from the list.
+
+
+list = [0,1,2,3,4]     
+print("printing original list: ");    
+for i in list:    
+    print(i,end=" ") 
+
+list.remove(2)    
+print("\nprinting the list after the removal of first element...")    
+for i in list:    
+    print(i,end=" ")  
+
+
+
+Example: 1- Write the program to remove the duplicate element of the list.
+
+list1 = [1,2,2,3,55,98,65,65,13,29]  
+
+# Declare an empty list that will store unique values  
+list2 = []  
+
+for i in list1:  
+    if i not in list2:  
+        list2.append(i)  
+print(list2) 
+
+
+Example:2- Write a program to find the sum of the element in the list.
+
+list1 = [3,4,5,9,10,12,24]  
+sum = 0  
+for i in list1:  
+    sum = sum+i      
+print("The sum is:",sum)  
+
+
+Example: 3- Write the program to find the lists consist of at least one common element.
+
+list1 = [1,2,3,4,5,6]  
+list2 = [7,8,9,2,10]  
+for x in list1:  
+    for y in list2:  
+        if x == y:  
+            print("The common element is:",x) 
+
+
+TUPLE IN PYTHON:
+
+A collection of ordered and immutable objects is known as a tuple. Tuples and lists are similar as they both are sequences. Though, tuples and lists are different because we cannot modify tuples, although we can modify lists after creating them, and also because we use parentheses to create tuples while we use square brackets to create lists.
+
+
+tuple_1 = ("Python", "tuples", "immutable", "object")  
+
+tuple_2 = (23, 42, 12, 53, 64) 
+tuple_3 = "Python", "Tuples", "Ordered", "Collection"  
+
+We represent an empty tuple by two parentheses enclosing nothing.
+Empty_tuple = ()  
+
+We need to add a comma after the element to create a tuple of a single element.
+Tuple_1 = (50,)  
+
+Tuple indices begin at 0, and similar to strings, we can slice them, concatenate them, and perform other operations.
+
+Creating a Tuple
+
+All the objects (elements) must be enclosed in parenthesis (), each separated by a comma, to form a tuple. Although using parenthesis is not required, it is recommended to do so.
+
+Whatever the number of objects, even of various data types, can be included in a tuple (dictionary, string, float, list, etc.).
+
+
+
+# Python program to show how to create a tuple  
+  
+# Creating an empty tuple  
+empty_tuple = ()  
+print("Empty tuple: ", empty_tuple)  
+  
+# Creating tuple having integers  
+int_tuple = (4, 6, 8, 10, 12, 14)  
+print("Tuple with integers: ", int_tuple)  
+  
+# Creating a tuple having objects of different data types  
+mixed_tuple = (4, "Python", 9.3)  
+print("Tuple with different data types: ", mixed_tuple)  
+  
+# Creating a nested tuple  
+nested_tuple = ("Python", {4: 5, 6: 2, 8:2}, (5, 3, 5, 6))  
+print("A nested tuple: ", nested_tuple)  
+Output:
+
+Empty tuple:  ()
+Tuple with integers:  (4, 6, 8, 10, 12, 14)
+Tuple with different data types:  (4, 'Python', 9.3)
+A nested tuple:  ('Python', {4: 5, 6: 2, 8: 2}, (5, 3, 5, 6))
+Parentheses are not mandated to build tuples. Tuple packing is the term for this.
+
+Code
+
+# Python program to create a tuple without using parentheses  
+  
+# Creating a tuple  
+tuple_ = 4, 5.7, "Tuples", ["Python", "Tuples"]
+  
+# displaying the tuple created  
+print(tuple_)  
+  
+# Checking the data type of object tuple_  
+print( type(tuple_) )  
+  
+# trying to modify tuple_  
+try:  
+    tuple_[1] = 4.2 
+
+except:  
+    print( TypeError )  
+
+
+o/p
+(4, 5.7, 'Tuples', ['Python', 'Tuples'])
+<class 'tuple'>
+<class 'TypeError'>
+
+
+
+
+
+
+# Python program to show how to create a tuple having a single element  
+  
+single_tuple = ("Tuple")  
+print( type(single_tuple) ) #<class 'str'>   
+  
+# Creating a tuple that has only one element  
+single_tuple = ("Tuple",)  
+print( type(single_tuple) )   # <class 'tuple'>
+  
+# Creating tuple without parentheses  
+single_tuple = "Tuple",  
+print( type(single_tuple) )  #<class 'tuple'>
+
+Accessing Tuple Elements:-
+
+We can access the objects of a tuple in a variety of ways:-
+
+Indexing:-
+To access an object of a tuple, we can use the index operator [], where indexing in the tuple starts from 0.
+
+
+
+
+
+
+
+
+
+# Python program to show how to access tuple elements  
+  
+# Creating a tuple  
+tuple_ = ("Python", "Tuple", "Ordered", "Collection")  
+  
+print(tuple_[0])    
+print(tuple_[1])   
+# trying to access element index more than the length of a tuple  
+try:  
+    print(tuple_[5]) #tuple index out of range   
+except Exception as e:  
+    print(e)  
+# trying to access elements through the index of floating data type  
+try:  
+    print(tuple_[1.0]) #tuple indices must be integers or slices, not float   
+except Exception as e:  
+    print(e)  
+  
+# Creating a nested tuple  
+nested_tuple = ("Tuple", [4, 6, 2, 6], (6, 2, 6, 7))  
+  
+# Accessing the index of a nested tuple
+  
+print(nested_tuple[0][3])    #1      
+print(nested_tuple[1][1])     #6
+
+
+Negative Indexing
+Python's sequence objects support negative indexing.
+The last item of the collection is represented by -1, the second last item by -2, and so on.
+
+
+# Python program to show how negative indexing works in Python tuples  
+  
+# Creating a tuple  
+tuple_ = ("Python", "Tuple", "Ordered", "Collection")  
+  
+# Printing elements using negative indices  
+print("Element at -1 index: ", tuple_[-1])  
+  
+print("Elements between -4 and -1 are: ", tuple_[-4:-1])  
+o/p:-
+Element at -1 index:  Collection
+Elements between -4 and -1 are:  ('Python', 'Tuple', 'Ordered')
+
+
+tuple Slicing:-
+We can use a slicing operator, a colon (:), to access a range of tuple elements
+
+
+# Creating a tuple  
+tuple_ = ("Python", "Tuple", "Ordered", "Immutable", "Collection", "Objects")  
+  
+# Using slicing to access elements of the tuple  
+print("Elements between indices 1 and 3: ", tuple_[1:3])  
+  
+# Using negative indexing in slicing  
+print("Elements between indices 0 and -4: ", tuple_[:-4])  
+  
+# Printing the entire tuple by using the default start and end values.   
+print("Entire tuple: ", tuple_[:])  
+
+
+
+
+Deleting a Tuple
+The elements of a tuple cannot be changed, as was already said. Therefore, we are unable to eliminate or remove elements of a tuple.
+
+However, the keyword del makes it feasible to delete a tuple completely.
+
+
+# Python program to show how to delete elements of a Python tuple  
+  
+# Creating a tuple  
+tuple_ = ("Python", "Tuple", "Ordered", "Immutable", "Collection", "Objects")  
+  
+# Deleting a particular element of the tuple  
+try:   
+    del tuple_[3]  
+    print(tuple_)  
+except Exception as e:  
+    print(e)  
+  
+# Deleting the variable from the global space of the program  
+del tuple_  
+  
+# Trying accessing the tuple after deleting it  
+try:  
+    print(tuple_)  
+except Exception as e:  
+    print(e)  
+
+
+
+Repetition Tuples in Python:-
+
+# Python program to show repetition in tuples  
+    
+tuple_ = ('Python',"Tuples")  
+print("Original tuple is: ", tuple_)  
+  
+# Repeting the tuple elements  
+tuple_ = tuple_ * 3  
+print("New tuple is: ", tuple_)  
+
+
+Tuple Methods
+Tuple does not provide methods to add or delete elements, and there are only the following two choices.
+
+
+
+# Python program to show how to tuple methods (.index() and .count()) work  
+  
+# Creating a tuple  
+tuple_ = ("Python", "Tuple", "Ordered", "Immutable", "Collection", "Ordered")  
+  
+# Counting the occurrence of an element of the tuple using the count() method  
+print(tuple_.count('Ordered'))  
+  
+# Getting the index of an element using the index() method  
+print(tuple_.index('Ordered')) # This method returns index of the first occurrence of the element  
+
+
+o/p:-2
+2
+2
+
+
+
+Tuple Membership Test:-
+
+
+# Python program to show how to perform membership test for tuples  
+  
+# Creating a tuple  
+x = ("Python", "Tuple", "Ordered", "Immutable", "Collection", "Ordered")  
+  
+# In operator  
+print('Tuple' in x)  
+print('Items' in x)  
+  
+# Not in operator  
+print('Immutable' not in tuple_)  
+print('Items' not in tuple_)        
+
+Output:
+
+True
+False
+False
+True
+
+
+Iterating Through a Tuple:-
+
+We can use a for loop to iterate through each element of a tuple
+
+
+# Python program to show how to iterate over tuple elements  
+  
+# Creating a tuple  
+tuple_ = ("Python", "Tuple", "Ordered", "Immutable")  
+  
+# Iterating over tuple elements using a for loop  
+for item in tuple_:  
+    print(item)  
+Output:
+
+Python
+Tuple
+Ordered
+Immutable
+
+
+Changing a Tuple:-Tuples, as opposed to lists, are immutable objects.
+
+This implies that after a tuple's elements have been specified, we cannot modify them. However, we can modify the nested elements of an element if the element itself is a mutable data type like a list.
+
+
+
+
+# Python program to show that Python tuples are immutable objects  
+  
+# Creating a tuple  
+tuple_ = ("Python", "Tuple", "Ordered", "Immutable", [1,2,3,4])  
+  
+# Trying to change the element at index 2  
+try:  
+    tuple_[2] = "Items"  
+    print(tuple_)  
+except Exception as e:  
+    print( e )  
+  
+# But inside a tuple, we can change elements of a mutable object  
+tuple_[-1][2] = 10   
+print(tuple_)  
+  
+# Changing the whole tuple  
+tuple_ = ("Python", "Items")  
+print(tuple_)  
+
+
+To merge multiple tuples, we can use the + operator. Concatenation is the term for this.
+
+Using the * operator, we may also repeat a tuple's elements for a specified number of times. This is already shown above.
+
+
+
+
+# Python program to show how to concatenate tuples  
+  
+# Creating a tuple  
+tuple_ = ("Python", "Tuple", "Ordered", "Immutable")  
+  
+# Adding a tuple to the tuple_  
+print(tuple_ + (4, 5, 6))  
+
+Sets in python:-
+
+A Python set is the collection of the unordered items. Each element in the set must be unique, immutable, and the sets remove the duplicate elements. Sets are mutable which means we can modify it after its creation.
+
+
+Unlike other collections in Python, there is no index attached to the elements of the set, i.e., we cannot directly access any element of the set by the index. However, we can print them all together, or we can get the list of elements by looping through the set.
+
+
+Creating a set:
+
+The set can be created by enclosing the comma-separated immutable items with the curly braces {}. Python also provides the set() method, which can be used to create the set by the passed sequence.
+
+
+Days = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"}   
+
+print(Days)   #{'Friday', 'Tuesday', 'Monday', 'Saturday', 'Thursday', 'Sunday', 'Wednesday'}   
+print(type(Days))  # <class 'set'>  
+print("looping through the set elements ... ")    
+for i in Days:    
+    print(i)    
+
+
+
+
+Days = set(["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"])    
+print(Days)    
+print(type(Days))    
+print("looping through the set elements ... ")    
+for i in Days:    
+    print(i)    
+
+
+
+# Creating a set which have immutable elements  
+
+set1 = {1,2,3, "JavaTpoint", 20.5, 14}  
+print(type(set1))
+
+#Creating a set which have mutable element  
+set2 = {1,2,3,["Javatpoint",4]}  
+print(type(set2))  
+
+
+
+
+
+Adding items to the set:-
+Python provides the add() method and update() method which can be used to add some particular item to the set.
+The add() method is used to add a single element whereas the update() method is used to add multiple elements to the set
+
+
+
+Months = set(["January","February", "March", "April", "May", "June"])    
+
+print("\nprinting the original set ... ")    
+print(months)  
+
+print("\nAdding other months to the set...");    
+Months.add("July");    
+Months.add ("August");  
+
+print("\nPrinting the modified set...");    
+print(Months)    
+
+print("\nlooping through the set elements ... ")    
+for i in Months:    
+    print(i)  
+
+
+
+
+
+
+
+
+
+
+Months = set(["January","February", "March", "April", "May", "June"])    
+
+print("\nprinting the original set ... ")    
+print(Months)    
+
+print("\nupdating the original set ... ")    
+
+Months.update(["July","August","September","October"]);    
+print("\nprinting the modified set ... ")     
+print(Months);  
+
+
+
+
+
+Removing items from the set:-
+
+Python provides the discard() method and remove() method which can be used to remove the items from the set. The difference between these function, using discard() function if the item does not exist in the set then the set remain unchanged whereas remove() method will through an error
+
+DISCARD:-
+months = set(["January","February", "March", "April", "May", "June"])    
+
+print("\nprinting the original set ... ")    
+print(months)    
+
+print("\nRemoving some months from the set...");    
+months.discard("January");    
+months.discard("May");    
+
+print("\nPrinting the modified set...");    
+print(months)    
+
+print("\nlooping through the set elements ... ")    
+for i in months:    
+    print(i)    
+
+REMOVE :
+months = set(["January","February", "March", "April", "May", "June"])    
+
+print("\nprinting the original set ... ")    
+print(months)    
+
+print("\nRemoving some months from the set...");    
+months.remove("January");    
+months.remove("May"); 
+
+print("\nPrinting the modified set...");    
+print(months)   
+
+
+
+Union of two Sets:
+
+The union of two sets is calculated by using the pipe (|) operator. The union of the two sets contains all the items that are present in both the sets.
+
+Days1 = {"Monday","Tuesday","Wednesday","Thursday", "Sunday"}    
+Days2 = {"Friday","Saturday","Sunday"}    
+print(Days1|Days2) #printing the union of the sets  
+{'Friday', 'Sunday', 'Saturday', 'Tuesday', 'Wednesday', 'Monday', 'Thursday'}
+
+
+Python also provides the union() method which can also be used to calculate the union of two sets
+
+
+Days1 = {"Monday","Tuesday","Wednesday","Thursday"}    
+Days2 = {"Friday","Saturday","Sunday"}    
+print(Days1.union(Days2)) #printing the union of the sets    
+
+
+
+
+Intersection of two sets:-
+
+The intersection of two sets can be performed by the and & operator or the intersection() function. The intersection of the two sets is given as the set of the elements that common in both sets.
+
+
+Example 1: Using & operator
+
+Days1 = {"Monday","Tuesday", "Wednesday", "Thursday"}    
+Days2 = {"Monday","Tuesday","Sunday", "Friday"}    
+print(Days1&Days2) #prints the intersection of the two sets  
+
+
+Output:
+
+{'Monday', 'Tuesday'}
+
+
+Example 2: Using intersection() method
+
+set1 = {"Devansh","John", "David", "Martin"}    
+set2 = {"Steve", "Milan", "David", "Martin"}    
+print(set1.intersection(set2)) #prints the intersection of the two sets    
+
+Output:
+
+{'Martin', 'David'}
+
+
+
+
+
+The intersection_update() method
+The intersection_update() method removes the items from the original set that are not present in both the sets (all the sets if more than one are specified).
+
+
+
+
+
+The intersection_update() method is different from the intersection() method since it modifies the original set by removing the unwanted items, on the other hand, the intersection() method returns a new set.
+
+
+
+
+a = {"Devansh", "bob", "castle"}    
+b = {"castle", "dude", "emyway"}    
+c = {"fuson", "gaurav", "castle"}    
+    
+a.intersection_update(b, c)    
+    
+print(a) 
+
+o/p:-
+{'castle'}
+
+
+Difference between the two sets:-
+the difference of two sets can be calculated by using the subtraction (-) operator or intersection() method. Suppose there are two sets A and B, and the difference is A-B that denotes the resulting set will be obtained that element of A, which is not present in the set B.
+
+
+
+Days1 = {"Monday",  "Tuesday", "Wednesday", "Thursday"}    
+Days2 = {"Monday", "Tuesday", "Sunday"}    
+print(Days1-Days2) #{"Wednesday", "Thursday" will be printed}  
+
+o/p:
+{'Thursday', 'Wednesday'}  
+
+
+
+Example 2 : Using difference() method
+
+Days1 = {"Monday",  "Tuesday", "Wednesday", "Thursday"}    
+Days2 = {"Monday", "Tuesday", "Sunday"}    
+print(Days1.difference(Days2)) # prints the difference of the two sets Days1 and Days2    
+
+
+Output:
+
+{'Thursday', 'Wednesday'}
+
+
+Set comparisons
+Python allows us to use the comparison operators i.e., <, >, <=, >= , == with the sets by using which we can check whether a set is a subset, superset, or equivalent to other set. The boolean true or false is returned depending upon the items present inside the sets.
+
+
+
+Days1 = {"Monday",  "Tuesday", "Wednesday", "Thursday"}    
+Days2 = {"Monday", "Tuesday"}    
+Days3 = {"Monday", "Tuesday", "Friday"}    
+    
+#Days1 is the superset of Days2 hence it will print true.     
+print (Days1>Days2)     
+    
+#prints false since Days1 is not the subset of Days2     
+print (Days1<Days2)    
+    
+#prints false since Days2 and Days3 are not equivalent     
+print (Days2 == Days3)    
+
+Example - 1: Write a program to remove the given number from the set.
+
+my_set = {1,2,3,4,5,6,12,24}  
+n = int(input("Enter the number you want to remove"))12  
+my_set.discard(n)  
+print("After Removing:",my_set)  
+
+o/p:-1,2,3,4,5,6,24
+
+
+Example - 2: Write a program to add multiple elements to the set.
+
+set1 = set([1,2,4,"John","CS"])  
+set1.update(["Apple","Mango","Grapes"])  
+print(set1)  
+
+
+
+
+Python Dictionary
+Python Dictionary is used to store the data in a key-value pair format. The dictionary is the data type in Python, which can simulate the real-life data arrangement where some specific value exists for some particular key. It is the mutable data-structure. The dictionary is defined into element Keys and values.
+
+
+
+Keys must be a single element
+Value can be any type such as list, tuple, integer, etc.
+
+
+In other words, we can say that a dictionary is the collection of key-value pairs where the value can be any Python object. In contrast, the keys are the immutable Python object, i.e., Numbers, string, or tuple.
+
+
+Creating the dictionary
+The dictionary can be created by using multiple key-value pairs enclosed with the curly brackets {}, and each key is separated from its value by the colon (:).
+
+
+
+Dict = {"Name": "Tom", "Age": 22} 
+
+Employee = {"Name": "John", "Age": 29, "salary":25000,"Company":"GOOGLE"}    
+print(type(Employee))    
+print("printing Employee data .... ")    
+print(Employee)   
+
+
+
+o/p:-
+<class 'dict'>
+Printing Employee data .... 
+{'Name': 'John', 'Age': 29, 'salary': 25000, 'Company': 'GOOGLE'}
+
+
+
+
+dict() method which is also used to create dictionary. The empty curly braces {} is used to create empty dictionary.
+
+Dict={}
+print(Dict)
+
+
+Dict= dict({1:'lavya',2:'mohan',3:'ashif'})
+print(Dict)
+
+
+# with each item as a Pair   
+Dict = dict([(1, 'Devansh'), (2, 'Sharma')])   
+print("\nDictionary with each item as a pair: ")   
+print(Dict)  
+
+
+
+
+
+
+Accessing the dictionary values:
+We have discussed how the data can be accessed in the list and tuple by using the indexing.
+
+However, the values can be accessed in the dictionary by using the keys as keys are unique in the dictionary.
+
+The dictionary values can be accessed in the following way.
+
+
+
+Employee = {"Name": "John", "Age": 29, "salary":25000,"Company":"GOOGLE"}  
+print(type(Employee))  
+print("printing Employee data .... ")  
+print("Name : %s" %Employee["Name"])  
+print("Age : %d" %Employee["Age"])  
+print("Salary : %d" %Employee["salary"])  
+print("Company : %s" %Employee["Company"])  
+
+o/p:-
+
+<class 'dict'>
+printing Employee data .... 
+Name : John
+Age : 29
+Salary : 25000
+Company : GOOGLE
+
+
+Adding dictionary values:-
+
+The dictionary is a mutable data type, and its values can be updated by using the specific keys. The value can be updated along with key 
+Dict[key] = value. The update() method is also used to update an existing value.
+
+
+# Creating an empty Dictionary   
+Dict = {}   
+print("Empty Dictionary: ")   
+print(Dict)   
+    
+# Adding elements to dictionary one at a time   
+Dict[0] = 'Peter'  
+Dict[2] = 'Joseph'  
+Dict[3] = 'Ricky'  
+print("\nDictionary after adding 3 elements: ")   
+print(Dict)   
+    
+# Adding set of values    
+# with a single Key   
+# The Emp_ages doesn't exist to dictionary  
+Dict['Emp_ages'] = 20, 33, 24  
+print("\nDictionary after adding 3 elements: ")   
+print(Dict)   
+    
+# Updating existing Key's Value   
+Dict[3] = 'rohit'  
+print("\nUpdated key value: ")   
+print(Dict) 
+
+
+Empty Dictionary: 
+{}
+
+
+Dictionary after adding 3 elements: 
+{0: 'Peter', 2: 'Joseph', 3: 'Ricky'}
+
+Dictionary after adding 3 elements: 
+{0: 'Peter', 2: 'Joseph', 3: 'Ricky', 'Emp_ages': (20, 33, 24)}
+
+Updated key value: 
+{0: 'Peter', 2: 'Joseph', 3: 'rohit', 'Emp_ages': (20, 33, 24)}
+
+
+
+
+
+
+Deleting elements using del keyword:-
+Employee = {"Name": "John", "Age": 29, "salary":25000,"Company":"GOOGLE"}    
+print(type(Employee))   
+
+print("printing Employee data .... ")    
+print(Employee)   
+
+print("Deleting some of the employee data") 
+
+del Employee["Name"]    
+del Employee["Company"]    
+print("printing the modified information ")    
+print(Employee) 
+
+print("Deleting the dictionary: Employee");  
+
+del Employee  
+
+print("Lets try to print it again ");
+
+print(Employee)    
+
+
+Using pop() method:-
+The pop() method accepts the key as an argument and remove the associated value
+
+# Creating a Dictionary   
+
+Dict = {1: 'lavya', 2: 'Peter', 3: 'Thomas'}   
+
+# Deleting a key    
+# using pop() method  
+
+pop_ele = Dict.pop(3)   
+print(Dict)  
+
+
+loop in dictionary:
+
+Employee = {"Name": "John", "Age": 29, "salary":25000,"Company":"GOOGLE"}    
+for x in Employee:    
+    print(x)  
+
+    name 
+    age
+    salary
+    company
+
+
+
+ Employee = {"Name": "John", "Age": 29, "salary":25000,"Company":"GOOGLE"}    
+ for x in Employee:    
+    print(x." = ".Employee[x])     
+
+john
+29
+25000
+Google
+
+
+
+
+Employee = {"Name": "John", "Age": 29, "salary":25000,"Company":"GOOGLE"}    
+for x in Employee.values():    
+    print(x)  
+
+
+
+
+
+
+
+Employee = {"Name": "John", "Age": 29, "salary":25000,"Company":"GOOGLE"}    
+for x in Employee.items():    
+    print(x)  
+
+
+('Name', 'John')
+('Age', 29)
+('salary', 25000)
+('Company', 'GOOGLE')
+
+to clear content of dic not dic complete
+	Employee.clear()
+
+	data=Employee.copy()
+	print(data) 
+
+
+
+
+Function: block of code is known as function  that is used to perform a specific task.
+           we use def keyword to define function
+
+c program:
+void main(){
+	
+	printf("hello");
+}
+
+
+python syntax:
+
+def functionname():
+code to exicute
+
+def demo():
+print("hello world")
+
+
+
+function calling:- function is called by function name and followed by the ()  we can call a function more then one time
+demo()
+demo()
+demo()
+demo()
+
+
+
+type of function:
+predefined (lib function like print(),input()...etc)
+user defined(function that is created by user according to need)
+
+def demo():
+print("hello world")
+
+
+
+on the basis of arguments type of function:
+non parametrized :-we not pass any arguments in () at the time of fun declaration
+def demo( ):
+print("hello world")
+
+
+
+demo()
+demo()
+parametrized :-we  pass any arguments in () at the time of fun declaration,we pass any num of argumets in ()
+
+def demo(a,b):
+print(a+b)
+
+def demo2(a,b):
+c=a+b
+print(c)
+
+demo(20,50)
+demo2(10,20)
+
+
+
+a=21
+b=30
+c=a+b
+print(c)
+
+a=21
+b=30
+c=a+b
+print(c)
+a=21
+b=30
+c=a+b
+print(c)
+a=21
+b=30
+c=a+b
+print(c)
+
+wap to check a number is even or odd using function
+wap to check a value is negative or positive using function.
+wap to find factoraila of a number using function 
+
+
+
+Python break statement:-
+The break is a keyword in python which is used to bring the program control out of the loop. The break statement breaks the loops one by one, i.e., in the case of nested loops, it breaks the inner loop first and then proceeds to outer loops. In other words, we can say that break is used to abort the current execution of the program and the control goes to the next line after the loop.
+
+The break is commonly used in the cases where we need to break the loop for a given condition.
+
+The syntax of the break is given below.
+
+#loop statements  
+break;   
+
+
+list =[1,2,3,4]  
+count = 1;  
+for i in list:  
+    if i == 4:  
+        print("item matched")  
+        count = count + 1;  
+        break  
+print("found at",count,"location");  
+
+
+
+str = "python"  
+for i in str:  
+    if i == 'o':  
+        break  
+    print(i);  
+
+
+
+
+
+n=2  
+while 1:  
+    i=1;  
+    while i<=10:  
+        print("%d X %d = %d\n"%(n,i,n*i));  
+        i = i+1;  
+    choice = int(input("Do you want to continue printing the table, press 0 for no?"))  
+    if choice == 0:  
+        break;      
+    n=n+1  
+
+
+
+Python continue Statement:it make the flow of loop continues
+continue keyword to skip the remaining statements of the current loop and go to the next iteration. 
+
+
+for iterator in range(10, 21):  
+   
+    # If iterator is equals to 15, loop will continue to the next iteration  
+    if iterator == 15:  
+        continue  
+    # otherwise printing the value of iterator  
+    print( iterator ) 
+
+
+What is Pass Statement in Python?:-The null statement is another name for the pass statement. A Comment is not ignored by the Python interpreter, whereas a pass statement is not
+
+
+We can use the pass statement as a placeholder when unsure what code to provide. So, we only have to place the pass on that line. Pass may be used when we don't wish any code to be executed. We can simply insert a pass in places where empty code is prohibited, such as loops, functions, class definitions, or if-else statements
+
+
+
+sequence = {"Python", "Pass", "Statement", "Placeholder"}  
+for value in sequence:  
+    if value == "Pass":  
+        pass # leaving an empty if block using the pass keyword  
+    else:  
+        print("Not reached pass keyword: ", value)  
+
+
+Python Built-in Functions:- Python built-in functions are defined as the functions whose functionality is pre-defined in Python. The python interpreter has several functions that are always present for use. 
+
+
+
+abs() Function:  
+ python abs() function is used to return the absolute value of a number. It takes only one argument, a number whose absolute value is to be returned. The argument can be an integer and floating-point number. If the argument is a complex number, then, abs() returns its magnitude.
+
+
+
+ #integer number     
+a = -20  
+print('Absolute value of -20 is:', abs(a))  #20
+  
+#  floating number  
+b = -40.83  
+print('Absolute value of -40.83 is:', abs(b))   #40.83
+
+
+
+
+all() Function:-
+all() function accepts an iterable object (such as list, dictionary, etc.). It returns true if all items in passed iterable are true. Otherwise, it returns False. If the iterable object is empty, the all() function returns True.
+
+
+
+# all values true  
+k = [1, 3, 4, 6]  
+print(all(k))  
+  
+# all values false  
+k = [0, False]  
+print(all(k))  
+  
+# one false value  
+k = [1, 3, 7, 0]  
+print(all(k))  
+  
+# one true value  
+k = [0, False, 5]  
+print(all(k))  
+  
+# empty iterable  
+k = []  
+print(all(k))  
+
+
+
+Python bin() Function:-
+python bin() function is used to return the binary representation of a specified integer. A result always starts with the prefix 0b.
+
+
+
+
+x =  10  
+y =  bin(x)  
+print (y)  # 0b1010
+
+
+x =  9  
+y =  bin(x)  
+print (y) # 0b1001
+8421
+
+python bool():-
+
+the python bool() converts a value to boolean(True or False) using the standard truth testing procedure.
+test1 = []  
+print(test1,'is',bool(test1))
+
+test1 = [0]  
+print(test1,'is',bool(test1))  
+test1 = 0.0  
+print(test1,'is',bool(test1))  
+test1 = None  
+print(test1,'is',bool(test1))  
+test1 = True  
+print(test1,'is',bool(test1))  
+test1 = 'Easy string'  
+print(test1,'is',bool(test1))  
+
+
+
+Python bytes():- python bytes() in Python is used for returning a bytes object. It is an immutable version of the bytearray() function.
+
+string = "Hello World."  
+array = bytes(string, 'utf-8')  
+print(array)  
+
+#b ' Hello World.'
+
+
+
+Python callable() Function:A python callable() function in Python is something that can be called. This built-in function checks and returns true if the object passed appears to be callable, otherwise false.
+
+x = 8  
+print(callable(x)) #false  
+
+Python exec() Function:-
+The python exec() function is used for the dynamic execution of Python program which can either be a string or object code and it accepts large blocks of code, unlike the eval() function which only accepts a single expression.
+
+
+x = 8  
+exec('print(x==8)')  #true
+exec('print(x+4)')  #12
+
+
+Python sum() Function:-
+python sum() function is used to get the sum of numbers of an iterable, i.e., list.
+s = sum([1, 2,4 ])  
+print(s) #7 
+  
+
+
+
+s = sum([1, 2, 4], 10)  
+print(s)  #17
+
+
+eval() Function:-The python eval() function parses the expression passed to it and runs python expression(code) within the program.
+
+x = 8  
+print(eval('x + 1'))  #9
+
+Python float()
+The python float() function returns a floating-point number from a number or string.
+
+# for integers  
+print(float(9))  
+  
+# for floats  
+print(float(8.19))  
+  
+# for string floats  
+print(float("-24.27"))  
+  
+# for string floats with whitespaces  
+print(float("     -17.19\n"))  
+  
+# string float error  
+print(float("xyz"))  
+
+
+Output:
+
+9.0
+8.19
+-24.27
+-17.19
+ValueError: could not convert string to float: 'xyz'
+
+
+
+
+
+Python format() Function
+The python format() function returns a formatted representation of the given value.
+
+Python format() Function Example
+
+# d, f and b are a type  
+  
+# integer  
+print(format(123, "d"))  
+  
+# float arguments  
+print(format(123.4567898, "f"))  
+  
+# binary format  
+print(format(12, "b"))  
+Output:
+
+123
+123.456790
+1100
+
+
+Python getattr() Function:- python getattr() function returns the value of a named attribute of an object. If it is not found, it returns the default value.
+
+class Details:  
+    age = 22  
+    name = "Phill"  
+  
+obj = Details()  
+print('The age is:', getattr(obj, "age")) 
+ print('The name is:', getattr(obj, "name")) 
+
+print('The age is:', obj.age)  
+print('The name is:', obj.name) 
+
+Python iter() Function
+The python iter() function is used to return an iterator object. It creates an object which can be iterated one element at a time.
+
+list = [1,2,3,4,5]  
+listIter = iter(list)  
+  
+print(next(listIter))  #1 
+print(next(listIter))  #2
+print(next(listIter))  #3
+print(next(listIter))  #4
+
+
+
+Python len() Function:-
+The python len() function is used to return the length (the number of items) of an object.
+
+strA = 'Python'  
+print(len(strA))  
+
+Python map() Function
+The python map() function is used to return a list of results after applying a given function to each item of an iterable(list, tuple etc.).
+
+
+def calculateAddition(n):  
+  return n+n  
+
+numbers = (1, 2, 3, 4)  
+result = map(calculateAddition, numbers)  
+print(result)  
+
+
+
+
+# converting map object to set  
+numbersAddition = set(result)  
+print(numbersAddition)  
+
+
+
+
+<map object at 0x7fb04a6bec18>
+{8, 2, 4, 6}
+
+
+
+
+Python Date and time:-
+
+Python provides the datetime module work with real dates and times. In real-world applications, we need to work with the date and time. Python enables us to schedule our Python script to run at a particular timing.
+
+In Python, the date is not a data type, but we can work with the date objects by importing the module named with datetime, time, and calendar.
+
+The datetime classes are classified in the six main classes.
+
+date - It is a naive ideal date. It consists of the year, month, and day as attributes.
+
+time - It is a perfect time, assuming every day has precisely 24*60*60 seconds. It has hour, minute, second, microsecond, and tzinfo as attributes.
+
+datetime - It is a grouping of date and time, along with the attributes year, month, day, hour, minute, second, microsecond, and tzinfo.
+
+timedelta - It represents the difference between two dates, time or datetime instances to microsecond resolution.
+
+tzinfo - It provides time zone information objects.
+
+timezone - It is included in the new version of Python. It is the class that implements the tzinfo abstract base class.
+
+
+
+Tick
+In Python, the time instants are counted since 12 AM, 1st January 1970. The function time() of the module time returns the total number of ticks spent since 12 AM, 1st January 1970. A tick can be seen as the smallest unit to measure the time.
+
+
+import time;  
+#prints the number of ticks spent since 12 AM, 1st January 1970  
+
+print(time.time())  
+
+How to get the current time?
+The localtime() functions of the time module are used to get the current time tuple.
+
+import time;    
+    
+#returns a time tuple     
+    
+print(time.localtime(time.time())) 
+
+
+
+
+
+
+
+
+
+
+
+
+Python Arrays:-
+array is defined as a collection of items that are stored at contiguous memory locations. It is a container which can hold a fixed number of items, and these items should be of the same type. An array is popular in most programming languages like C/C++, JavaScript, etc.
+
+
+	Array is an idea of storing multiple items of the same type together and it makes easier to calculate the position of each element by simply adding an offset to the base value. A combination of the arrays could save a lot of time by reducing the overall size of the code. It is used to store multiple values in single variable. If you have a list of items that are stored in their corresponding variables like this:
+
+	value =10 20 30 40 50
+	index = 0  1  2  3  4
+
+car1 = "Lamborghini"
+car2 = "Bugatti"
+car3="swift"
+
+
+
+
+Element - Each item stored in an array is called an element.
+
+Index - The location of an element in an array has a numerical index, which is used to identify the position of the element.
+
+
+
+
+a = 10,20,30,40,50,60
+    0, 1, 2 ,3, 4, 5
+
+    index=size-1
+          5= 6-1
+
+-> Index starts with 0.
+-> We can access each element via its index.
+-> The length of the array defines the capacity to store the elements.
+
+
+Why to use arrays in Python?
+A combination of arrays saves a lot of time. The array can reduce the overall size of the code.
+
+Array operations
+Some of the basic operations supported by an array are as follows:
+
+Traverse - It prints all the elements one by one.
+Insertion - It adds an element at the given index.
+Deletion - It deletes an element at the given index.
+Search - It searches an element using the given index or by the value.
+Update - It updates an element at the given index.
+
+
+
+The Array can be created in Python by importing the array module to the python program.
+from array import *  
+arrayName = array(typecode, [initializers]) 
+
+
+import array as arr 
+
+a = arr.array('i', [2, 4, 6, 8])  
+print("First element:", a[0])  
+print("Second element:", a[1])  
+
+print("last element:", a[-1])    
+
+
+
+          we have imported an array, defined a variable named as "a" that holds the elements of an array and print the elements by accessing elements through indices of an array.
+
+How to change or add elements:-
+Arrays are mutable, and their elements can be changed in a similar way like lists.
+
+
+import array as arr  
+numbers = arr.array('i', [1, 2, 3, 5, 7, 10])  
+   
+# changing first element  
+numbers[0] = 17     
+print(numbers)  
+
+# Output: array('i', [17, 2, 3, 5, 7, 10])  
+   
+# changing 3rd to 5th element  
+numbers[2:5] = arr.array('i', [4, 6, 8])    
+print(numbers)    # Output: array('i', [17, 2, 4, 6, 8, 10])  
+
+
+How to delete elements from an array?:-elements can be deleted from an array using Python's del statement. If we want to delete any value from the array, we can do that by using the indices of a particular element.
+
+
+import array as arr  
+number = arr.array('i', [1, 2, 3, 3, 4])  
+del number[2]                           # removing third element  
+print(number)                           # Output: array('i', [1, 2, 3, 4])  
+
+
+Finding the length of an array:-
+
+The length of an array is defined as the number of elements present in an array. It returns an integer value that is equal to the total number of the elements present in that array.
+
+Syntax
+
+len(array_name)  
+
+
+Array Concatenation:-
+we can easily concatenate any two arrays using the + symbol.
+
+a=arr.array('d',[1.1 , 2.1 ,3.1,2.6,7.8])  
+b=arr.array('d',[3.7,8.6])  
+c=arr.array('d')  
+c=a+b  
+print("Array c = ",c)  # Array c= array('d', [1.1, 2.1, 3.1, 2.6, 7.8, 3.7, 8.6])
+
+
+
+
+
+cars = ["Ford", "Volvo", "BMW"]
+
+for x in cars:
+  print(x)
+
+
+
+
+Adding Array Elements
+You can use the append() method to add an new element to an array.
+
+cars = ["Ford", "Volvo", "BMW"]
+
+cars.append("Honda")
+
+print(cars)
+
+
+
+Removing Array Elements:-
+You can use the pop() method to remove an element from the array.
+
+cars = ["Ford", "Volvo", "BMW"]
+
+cars.pop(1)
+
+print(cars)
+
+You can also use the remove() method to remove an element from the array.
+
+cars = ["Ford", "Volvo", "BMW"]
+
+cars.remove("Volvo")
+
+
+print(cars)
+
+
+
+
+
+ copy() Method:-The copy() method returns a copy of the specified list.
+
+Syntax
+list.copy()
+
+ fruits = ["apple", "banana", "cherry"]
+
+x = fruits.copy()
+
+print(x)
+
+
+
+reverse() Method:-The reverse() method reverses the sorting order of the elements.
+Syntax
+list.reverse()
+ fruits = ["apple", "banana", "cherry"]
+
+x = fruits.reverse()
+
+print(x)
+
+
+
+sort() Method:-Sort the list alphabetically:
+
+cars = ['Ford', 'BMW', 'Volvo']
+
+cars.sort()
+print(cars)
+
+
+
+
+
+
+Python OOPs:- 
+class
+object
+constructor
+inheritance 
+abstraction
+
+class:-group of object is known as class that have variable,function,constructor and another more objects class can contains
+
+we use 'class' keyword to delcare the class
+
+-> it is also known as logical entity because it dont exist physically.
+-> and also known as template or blueprint
+
+syntax:
+
+class classname:
+	var,
+	fun
+	constr
+
+
+
+
+
+	class Lavya:
+	        id = 10   
+            name = "Devansh"    
+            def display (self):    
+            print(self.id,self.name)  
+the self is used as a reference variable, which refers to the current class object. It is always the first argument in the function definition. However, using self is optional in the function call.
+
+
+The self-parameter
+The self-parameter refers to the current instance of the class and accesses the class variables. We can use anything instead of self, but it must be the first parameter of any function which belongs to the class.
+
+
+class Employee:    
+    id = 10   
+    name = "John"  
+      
+    def display (self):    
+        print("ID: %d \nName: %s"%(self.id,self.name))    
+# Creating a emp instance of Employee class  
+emp = Employee() 
+emp1 = Employee()
+emp2 = Employee()     
+emp.display() 
+
+
+
+
+Object:- it is instance of the class that have more then one property.
+         -> it is used to access memeber of the class.
+         -> we can create more then one object of a class.but object name always be different.
+
+
+class Demo:
+    def ram():
+       print("hello ram")
+
+d=Demo()
+d1=Demo()
+d.ram() 
+d1.ram()      
+
+
+
+
+syntax:
+<object-name> = <class-name>(<arguments>)  
+
+d=Demo()
+
+
+
+
+Delete the Object:- we can delete the object
+We can delete the properties of the object or object itself by using the del keyword.
+
+class Employee:  
+    id = 10  
+    name = "John"  
+  
+    def display(self):  
+        print("ID: %d \nName: %s" % (self.id, self.name))  
+    # Creating a emp instance of Employee class  
+  
+emp = Employee()  
+  
+# Deleting the property of object  
+del emp.id  
+# Deleting the object itself  
+del emp  
+emp.display()  
+
+
+
+Python Constructor:-A constructor is a special type of method (function) which is used to initialize the instance members of the class.
+
+
+In C++ or Java, the constructor has the same name as its class, but it treats constructor differently in Python. It is used to create an object.
+
+Constructors can be of two types.
+
+Parameterized Constructor
+Non-parameterized Constructor
+
+
+Constructor definition is executed when we create the object of this class. Constructors also verify that there are enough resources for the object to perform any start-up task.
+
+In Python, the method the __init__() simulates the constructor of the class. This method is called when the class is instantiated. It accepts the self-keyword as a first argument which allows accessing the attributes or method of the class.
+
+
+
+We can pass any number of arguments at the time of creating the class object, depending upon the __init__() definition. It is mostly used to initialize the class attributes. Every class must have a constructor, even if it simply relies on the default constructor.
+
+
+
+
+
+class Employee:  
+    def __init__(self, name, id):  
+        self.id = id  
+        self.name = name  
+  
+    def display(self):  
+        print("ID: %d \nName: %s" % (self.id, self.name))  
+  
+  
+emp1 = Employee("John", 101)  
+emp2 = Employee("David", 102) 
+emp3 = Employee("jaspreet", 103)  
+  
+# accessing display() method to print employee 1 information  
+  
+emp1.display()  
+  
+# accessing display() method to print employee 2 information  
+emp2.display()  
+
+emp3.display()  
+
+
+
+
+
+
+
+class Student:    
+    count = 0    
+    def __init__(self):    
+        Student.count = Student.count + 1    
+s1=Student()    
+s2=Student()    
+s3=Student()    
+print("The number of students:",Student.count)    
+
+
+
+
+Python Non-Parameterized Constructor
+The non-parameterized constructor uses when we do not want to manipulate the value or the constructor that has only self as an argument. Consider the following example.
+
+Example
+class Student:  
+    # Constructor - non parameterized  
+    def __init__(self):  
+        print("This is non parametrized constructor")  
+    def show(self,name):  
+        print("Hello",name)  
+student = Student()  
+student.show("John")      
+
+
+
+
+
+Python Parameterized Constructor
+The parameterized constructor has multiple parameters along with the self. Consider the following example.
+
+Example
+class Student:  
+    # Constructor - parameterized  
+    def __init__(self, name):  
+        print("This is parametrized constructor")  
+        self.name = name  
+    def show(self):  
+        print("Hello",self.name)
+
+student = Student("John")  
+student.show()
+
+
+
+
+Python Default Constructor:-
+When we do not include the constructor in the class or forget to declare it, then that becomes the default constructor. It does not perform any task but initializes the objects. Consider the following example.    
+
+
+
+
+class Student:  
+    roll_num = 101  
+    name = "Joseph"  
+  
+    def display(self):  
+        print(self.roll_num,self.name)  
+  
+st = Student()  
+st.display()  
+
+
+
+
+
+
+More than One Constructor in Single class:-
+
+
+class Student:  
+    def __init__(self):  
+        print("The First Constructor") 
+         
+    def __init__(self):  
+        print("The second contructor")  
+  
+st = Student()  
+
+
+
+Inheritance:-it is a process in which child class object acquare all the properties and behaviour of  parent class object. 
+it is a process in which child class inherit from the base or parent class.
+
+Inheritance allows us to define a class that inherits all the methods and properties from another class.
+
+Parent class is the class being inherited from, also called base class.
+
+Child class is the class that inherits from another class, also called derived class.
+
+//parent or base
+class A{
+	
+
+}
+
+//child or drived class
+class B{
+	
+
+
+}
+example:
+
+class Person:
+  def __init__(self, fname, lname):
+    self.firstname = fname
+    self.lastname = lname
+
+  def printname(self):
+    print(self.firstname, self.lastname)
+
+#Use the Person class to create an object, and then execute the printname method:
+
+x = Person("John", "Doe")
+x.printname()
+
+class  Student(Person)
+  def __init__(self, fname, lname):
+
+
+
+
+x = Student("Mike", "Olsen")
+x.printname()
+
+Note: Use the pass keyword when you do not want to add any other properties or methods to the class.
+
+Now the Student class has the same properties and methods as the Person class.
+
+
+
+
+class Person:
+  def __init__(self, fname, lname):
+    self.firstname = fname
+    self.lastname = lname
+
+  def printname(self):
+    print(self.firstname, self.lastname)
+
+class Student(Person):
+  def __init__(self, fname, lname):
+    Person.__init__(self, fname, lname)
+
+x = Student("Mike", "Olsen")
+x.printname()
+
+
+
+
+
+Use the super() Function
+Python also has a super() function that will make the child class inherit all the methods and properties from its parent:
+
+
+
+class Person:
+  def __init__(self, fname, lname):
+    self.firstname = fname
+    self.lastname = lname
+
+  def printname(self):
+    print(self.firstname, self.lastname)
+
+class Student(Person):
+  def __init__(self, fname, lname):
+    super().__init__(fname, lname)
+
+x = Student("Mike", "Olsen")
+x.printname()
+
+
+
+
+By using the super() function, you do not have to use the name of the parent element, it will automatically inherit the methods and properties from its parent.
+
+
+
+
+class Person:
+  def __init__(self, fname, lname):
+    self.firstname = fname
+    self.lastname = lname
+
+  def printname(self):
+    print(self.firstname, self.lastname)
+
+class Student(Person):
+  def __init__(self, fname, lname, year):
+    super().__init__(fname, lname)
+    self.graduationyear = year
+
+x = Student("Mike", "Olsen", 2019)
+print(x.graduationyear)
+
+
+
+
+
+
+
+class Person:
+  def __init__(self, fname, lname):
+    self.firstname = fname
+    self.lastname = lname
+
+  def printname(self):
+    print(self.firstname, self.lastname)
+
+class Student(Person):
+  def __init__(self, fname, lname, year):
+    super().__init__(fname, lname)
+    self.graduationyear = year
+
+  def welcome(self):
+    print("Welcome", self.firstname, self.lastname, "to the class of", self.graduationyear)
+
+x = Student("Mike", "Olsen", 2019)
+x.welcome()
+
+
+
+
+
+abstraction:
+Abstraction is used to hide the internal functionality of the function from the users. The users only interact with the basic implementation of the function, but inner working is hidden. User is familiar with that "what function does" but they don't know "how it does."
+
+In simple words, we all use the smartphone and very much familiar with its functions such as camera, voice-recorder, call-dialing, etc., but we don't know how these operations are happening in the background. Let's take another example - When we use the TV remote to increase the volume. We don't know how pressing a key increases the volume of the TV. We only know to press the "+" button to increase the volume.
+
+That is exactly the abstraction that works in the object-oriented concept.
+
+Why Abstraction is Important?
+In Python, an abstraction is used to hide the irrelevant data/class in order to reduce the complexity. It also enhances the application efficiency.
+
+Abstraction classes in Python:-
+
+A class that consists of one or more abstract method is called the abstract class. Abstract methods do not contain their implementation. Abstract class can be inherited by the subclass and abstract method gets its definition in the subclass. Abstraction classes are meant to be the blueprint of the other class. An abstract class can be useful when we are designing large functions. An abstract class is also helpful to provide the standard interface for different implementations of components. Python provides the abc module to use the abstraction in the Python program. Let's see the following syntax.
+
+Syntax
+
+from abc import ABC  
+class ClassName(ABC):  
+
+
+
+
+Abstract Base Classes
+An abstract base class is the common application program of the interface for a set of subclasses. It can be used by the third-party, which will provide the implementations such as with plugins. It is also beneficial when we work with the large code-base hard to remember all the classes.
+
+
+
+
+
+
+# Python program demonstrate  
+# abstract base class work   
+
+from abc import ABC, abstractmethod   
+class Car(ABC):   
+    def mileage(self):   
+        pass  
+  
+class Tesla(Car):   
+    def mileage(self):   
+        print("The mileage is 30kmph")   
+class Suzuki(Car):   
+    def mileage(self):   
+        print("The mileage is 25kmph ")   
+class Duster(Car):   
+     def mileage(self):   
+          print("The mileage is 24kmph ")   
+  
+class Renault(Car):   
+    def mileage(self):   
+            print("The mileage is 27kmph ")   
+          
+# Driver code   
+t= Tesla ()   
+t.mileage()   
+r = Renault()   
+r.mileage()   
+s = Suzuki()   
+s.mileage()   
+d = Duster()   
+d.mileage()  
+
+in the above code, we have imported the abc module to create the abstract base class. We created the Car class that inherited the ABC class and defined an abstract method named mileage(). We have then inherited the base class from the three different subclasses and implemented the abstract method differently. We created the objects to call the abstract method.
+
+
+
+
+
+
+# abstract class  
+  
+from abc import ABC  
+  
+class Polygon(ABC):   
+  
+   # abstract method   
+   def sides(self):   
+      pass  
+  
+class Triangle(Polygon):   
+  
+     
+   def sides(self):   
+      print("Triangle has 3 sides")   
+  
+class Pentagon(Polygon):   
+  
+     
+   def sides(self):   
+      print("Pentagon has 5 sides")   
+  
+class Hexagon(Polygon):   
+  
+   def sides(self):   
+      print("Hexagon has 6 sides")   
+  
+class square(Polygon):   
+  
+   def sides(self):   
+      print("I have 4 sides")   
+  
+# Driver code   
+t = Triangle()   
+t.sides()   
+  
+s = square()   
+s.sides()   
+  
+p = Pentagon()   
+p.sides()   
+  
+k = Hexagon()   
+K.sides()   
+
+
+
+
+
+Python File Handling
+The file handling plays an important role when the data needs to be stored permanently into the file. A file is a named location on disk to store related information. We can access the stored information (non-volatile) after the program termination.
+
+The file-handling implementation is slightly lengthy or complicated in the other programming language, but it is easier and shorter in Python.
+
+we can perform many operation in file like open ,close,read ,write ,search and more operation we can perform with file.
+
+
+In Python, files are treated in two modes as text or binary. The file may be in the text or binary format, and each line of a file is ended with the special character.
+
+Hence, a file operation can be done in the following order.
+
+Open a file
+Read or write - Performing operation
+Close the file
+
+
+
+Opening a file:
+Python provides an open(filename,mode) function that accepts two arguments, file name and access mode in which the file is accessed. The function returns a file object which can be used to perform various operations like reading, writing, etc.
+
+Syntax:
+
+file object = open(<file-name>, <access-mode>, <buffering>)  
+
+
+
+
+1.  r	It opens the file to read-only mode. The file pointer exists at the beginning. The file is by default open in this mode if no 
+           access mode is passed.
+2	rb	It opens the file to read-only in binary format. The file pointer exists at the beginning of the file.
+3	r+	It opens the file to read and write both. The file pointer exists at the beginning of the file.
+4	rb+	It opens the file to read and write both in binary format. The file pointer exists at the beginning of the file.
+5	w	It opens the file to write only. It overwrites the file if previously exists or creates a new one if no file exists with the same name. The file pointer exists at the beginning of the file.
+6	wb	It opens the file to write only in binary format. It overwrites the file if it exists previously or creates a new one if no file exists. The file pointer exists at the beginning of the file.
+7	w+	It opens the file to write and read both. It is different from r+ in the sense that it overwrites the previous file if one exists whereas r+ doesn't overwrite the previously written file. It creates a new file if no file exists. The file pointer exists at the beginning of the file.
+8	wb+	It opens the file to write and read both in binary format. The file pointer exists at the beginning of the file.
+9	a	It opens the file in the append mode. The file pointer exists at the end of the previously written file if exists any. It creates a new file if no file exists with the same name.
+10	ab	It opens the file in the append mode in binary format. The pointer exists at the end of the previously written file. It creates a new file in binary format if no file exists with the same name.
+11	a+	It opens a file to append and read both. The file pointer remains at the end of the file if a file exists. It creates a new file if no file exists with the same name.
+12	ab+	It opens a file to append and read both in binary format. The file pointer remains at the end of the file.
+
+fileptr = open("file.txt","r")    
+    
+if fileptr:    
+    print("file is opened successfully")  
+
+
+
+
+
+we have passed filename as a first argument and opened file in read mode as we mentioned r as the second argument. The fileptr holds the file object and if the file is opened successfully, it will execute the print statement
+
+
+
+The close() method
+Once all the operations are done on the file, we must close it through our Python script using the close() method. Any unwritten information gets destroyed once the close() method is called on a file object.
+
+We can perform any operation on the file externally using the file system which is the currently opened in Python; hence it is good practice to close the file once all the operations are done.
+
+The syntax to use the close() method is given below.
+
+Syntax
+
+fileobject.close()   
+
+
+
+fileptr = open("file.txt","r")    
+    
+if fileptr:    
+    print("file is opened successfully")  
+
+    fileptr.close()
+
+
+After closing the file, we cannot perform any operation in the file. The file needs to be properly closed. If any exception occurs while performing some operations in the file then the program terminates without closing the file.
+
+
+
+# open the file.txt in append mode. Create a new file if no such file exists.  
+fileptr = open("file2.txt", "w")  
+  
+# appending the content to the file  
+fileptr.write('''''Python is the modern day language. It makes things so simple. 
+It is the fastest-growing programing language''')  
+  
+# closing the opened the file  
+fileptr.close()  
+
+
+
+
+
+
+
+
+#open the file.txt in write mode.    
+fileptr = open("file2.txt","a")  
+    
+#overwriting the content of the file    
+fileptr.write(" Python has an easy syntax and user-friendly interaction.")    
+      
+#closing the opened file     
+fileptr.close()
+
+
+
+#open the file.txt in read mode. causes error if no such file exists.    
+fileptr = open("file2.txt","r")  
+#stores all the data of the file into the variable content    
+content = fileptr.read(10)   
+# prints the type of the data stored in the file    
+print(type(content))      
+#prints the content of the file    
+print(content)       
+#closes the opened file    
+fileptr.close()   
+
+
+
+
+
+
+
+
+
+#open the file.txt in read mode. causes an error if no such file exists.    
+fileptr = open("file2.txt","r");     
+#running a for loop     
+for i in fileptr:    
+    print(i) # i contains each line of the file     
+
+
+
+
+
+
+#open the file.txt in read mode. causes error if no such file exists.    
+fileptr = open("file2.txt","r");     
+#stores all the data of the file into the variable content    
+content = fileptr.readline()     
+content1 = fileptr.readline()  
+#prints the content of the file    
+print(content)     
+print(content1)  
+#closes the opened file    
+fileptr.close()    
+
+Python provides also the readlines() method which is used for the reading lines. It returns the list of the lines till the end of file(EOF) is reached.
+
+
+
+#open the file.txt in read mode. causes error if no such file exists.    
+fileptr = open("file2.txt","r");     
+    
+#stores all the data of the file into the variable content    
+content = fileptr.readlines()     
+  
+#prints the content of the file    
+print(content)     
+    
+#closes the opened file    
+fileptr.close()  
+
+
+
+Creating a new file:-
+
+x: it creates a new file with the specified name. It causes an error a file exists with the same name.
+
+a: It creates a new file with the specified name if no such file exists. It appends the content to the file if the file already exists with the specified name.
+
+w: It creates a new file with the specified name if no such file exists. It overwrites the existing file.
+
+
+#open the file.txt in read mode. causes error if no such file exists.    
+fileptr = open("file2.txt","x")   
+print(fileptr)    
+if fileptr:    
+    print("File created successfully")  
+
+
+
+
+File Pointer positions
+Python provides the tell() method which is used to print the byte number at which the file pointer currently exists. Consider the following example.
+
+# open the file file2.txt in read mode    
+fileptr = open("file2.txt","r")    
+  
+#initially the filepointer is at 0     
+print("The filepointer is at byte :",fileptr.tell())    
+    
+#reading the content of the file    
+content = fileptr.read();    
+    
+#after the read operation file pointer modifies. tell() returns the location of the fileptr.     
+    
+print("After reading, the filepointer is at:",fileptr.tell())        
+
+
+database (mysql):- structured quary lang.
+in database data stored in table format ,table have row and col in  which data stored
+we can perform many operations in database like create database ,table create ,store data,update,remove,delete data and so many operations we can perform.
+
+To build the real world applications, connecting with the databases is the necessity for the programming languages. However, python allows us to connect our application to the databases like MySQL, SQLite, MongoDB, and many others.
+
+
+
+step:1
+Install mysql.connector
+
+to connect the python application with the MySQL database, we must import the mysql.connector module in the program.
+the mysql.connector is not a built-in module that comes with the python installation. We need to install it to get it working.
+
+>  python -m pip install mysql-connector  
+
+
+
+
+
+
+1. Click the link:
+
+https://files.pythonhosted.org/packages/8f/6d/fb8ebcbbaee68b172ce3dfd08c7b8660d09f91d8d5411298bcacbd309f96/mysql-connector-python-8.0.13.tar.gz to download the source code.
+
+2. Extract the archived file.
+
+3. Open the terminal (CMD for windows) and change the present working directory to the source code directory.
+
+$  cd mysql-connector-python-8.0.13/  
+4. Run the file named setup.py with python (python3 in case you have also installed python 2) with the parameter build.
+
+$ python setup.py build  
+5. Run the following command to install the mysql-connector.
+
+$ python setup.py install  
+
+This will take a bit of time to install mysql-connector for python. We can verify the installation once the process gets over by importing mysql-connector on the python shell.
+
+
+
+import mysql.connector
+
+There are the following steps to connect a python application to our database.
+
+Import mysql.connector module
+Create the connection object.
+Create the cursor object
+Execute the query
+
+
+
+Creating the connection
+To create a connection between the MySQL database and the python application, the connect("localhost","sonu","sonu1993") method of mysql.connector module is used.
+
+Pass the database details like HostName, username, and the database password in the method call. The method returns the connection object.
+
+
+Connection-Object= mysql.connector.connect(host = <host-name> , user = <username> , passwd = <password> )  
+
+import mysql.connector  
+  
+#Create the connection object   
+myconn = mysql.connector.connect(host = "localhost", user = "root",passwd = "google")  
+  
+#printing the connection object   
+print(myconn)  
+
+
+
+import mysql.connector  
+  
+#Create the connection object   
+myconn = mysql.connector.connect(host = "localhost", user = "root",passwd = "google", database = "mydb")  
+  
+#printing the connection object   
+print(myconn)   
+
+
+
+
+
+
+Creating a cursor object
+The cursor object can be defined as an abstraction specified in the Python DB-API 2.0. It facilitates us to have multiple separate working environments through the same connection to the database. We can create the cursor object by calling the 'cursor' function of the connection object. The cursor object is an important aspect of executing queries to the databases.
+
+
+The syntax to create the cursor object is given below.
+
+<my_cur>  = conn.cursor() 
+
+
+import mysql.connector  
+#Create the connection object   
+myconn = mysql.connector.connect(host = "localhost", user = "root",passwd = "google", database = "mydb")  
+  
+#printing the connection object   
+print(myconn)   
+  
+#creating the cursor object  
+cur = myconn.cursor()  
+  
+print(cur)   
+
+
+
+Creating new databases:-
+We can get the list of all the databases 
+
+ show databases;  
+
+
+import mysql.connector  
+  
+#Create the connection object   
+myconn = mysql.connector.connect(host = "localhost", user = "root",passwd = "google")  
+  
+#creating the cursor object  
+cur = myconn.cursor()  
+  
+try:  
+    dbs = cur.execute("show databases")  
+except:  
+    myconn.rollback()  
+for x in cur:  
+    print(x)  
+myconn.close()
+
+
+
+
+
+import mysql.connector  
+  
+#Create the connection object   
+myconn = mysql.connector.connect(host = "localhost", user = "root",passwd = "google")  
+  
+#creating the cursor object  
+cur = myconn.cursor()  
+  
+try:  
+    #creating a new database  
+    cur.execute("create database PythonDB2")  
+  
+    #getting the list of all the databases which will now include the new database PythonDB  
+    dbs = cur.execute("show databases")  
+      
+except:  
+    myconn.rollback()  
+  
+for x in cur:  
+        print(x)  
+          
+myconn.close()    
+
+
+
+import mysql.connector  
+  
+#Create the connection object   
+myconn = mysql.connector.connect(host = "localhost", user = "root",passwd = "google",database = "PythonDB")  
+  
+#creating the cursor object  
+cur = myconn.cursor()  
+  
+try:  
+    #Creating a table with name Employee having four columns i.e., name, id, salary, and department id  
+    dbs = cur.execute("create table Employee(name varchar(20) not null, id int(20) not null primary key, salary float not null, Dept_id int not null)")  
+except:  
+    myconn.rollback()  
+  
+myconn.close()  
+
+
+
+
+
+
+Alter Table:-
+
+
+Sometimes, we may forget to create some columns, or we may need to update the table schema. The alter statement used to alter the table schema if required. Here, we will add the column branch_name to the table Employee. The following SQL query is used for this purpose.
+
+alter table Employee add branch_name varchar(20) not null  
+
+
+import mysql.connector  
+  
+#Create the connection object   
+myconn = mysql.connector.connect(host = "localhost", user = "root",passwd = "google",database = "PythonDB")  
+  
+#creating the cursor object  
+cur = myconn.cursor()  
+  
+try:  
+    #adding a column branch name to the table Employee  
+    cur.execute("alter table Employee add branch_name varchar(20) not null")  
+except:  
+    myconn.rollback()  
+  
+myconn.close()  
+
+
+
+
+
+import mysql.connector  
+#Create the connection object   
+myconn = mysql.connector.connect(host = "localhost", user = "root",passwd = "google",database = "PythonDB")  
+#creating the cursor object  
+cur = myconn.cursor()  
+sql = "insert into Employee(name, id, salary, dept_id, branch_name) values (%s, %s, %s, %s, %s)"  
+  
+#The row values are provided in the form of tuple   
+val = ("John", 110, 25000.00, 201, "Newyork")  
+  
+try:  
+    #inserting the values into the table  
+    cur.execute(sql,val)  
+  
+    #commit the transaction   
+    myconn.commit()  
+      
+except:  
+    myconn.rollback()  
+  
+print(cur.rowcount,"record inserted!")  
+myconn.close()  
+
+
+
+
+
+import mysql.connector  
+  
+#Create the connection object   
+myconn = mysql.connector.connect(host = "localhost", user = "root",passwd = "google",database = "PythonDB")  
+  
+#creating the cursor object  
+cur = myconn.cursor()  
+  
+try:  
+    #Reading the Employee data      
+    cur.execute("select * from Employee")  
+  
+    #fetching the rows from the cursor object  
+    result = cur.fetchall()  
+    #printing the result  
+      
+    for x in result:  
+        print(x);  
+except:  
+    myconn.rollback()  
+  
+myconn.close()  
+
+
+
+
+Update Operation
+The UPDATE-SET statement is used to update any column inside the table.
+ The following SQL query is used to update a column.
+  update Employee set name = 'alex' where id = 110  
+
+
+
+Delete Operation
+The DELETE FROM statement is used to delete a specific record from the table. Here, we must impose a condition using WHERE clause otherwise all the records from the table will be removed.
+
+The following SQL query is used to delete the employee detail whose id is 110 from the table.
+
+
+>  delete from Employee where id = 110  
+
+
+
+
+
+import mysql.connector  
+  
+#Create the connection object   
+myconn = mysql.connector.connect(host = "localhost", user = "root",passwd = "google",database = "PythonDB")  
+  
+#creating the cursor object  
+cur = myconn.cursor()  
+  
+try:  
+    #Deleting the employee details whose id is 110  
+    cur.execute("delete from Employee where id = 110")  
+    myconn.commit()  
+except:  
+      
+    myconn.rollback()  
+  
+myconn.close()  
+
+
+
+What is NumPy?:
+NumPy is a Python library used for working with arrays.
+It also has functions for working in domain of linear algebra, fourier transform, and matrices.
+NumPy was created in 2005 by Travis Oliphant. It is an open source project and you can use it freely.
+NumPy stands for Numerical Python.
+
+
+
+
+
+Why Use NumPy?
+In Python we have lists that serve the purpose of arrays, but they are slow to process.
+
+NumPy aims to provide an array object that is up to 50x faster than traditional Python lists.
+
+The array object in NumPy is called ndarray, it provides a lot of supporting functions that make working with ndarray very easy.
+
+Arrays are very frequently used in data science, where speed and resources are very important.
+
+
+Data Science: is a branch of computer science where we study how to store, use and analyze data for deriving information from it.
+
+
+
+
+
+
+Why is NumPy Faster Than Lists?
+
+NumPy arrays are stored at one continuous place in memory unlike lists, so processes can access and manipulate them very efficiently.
+
+This behavior is called locality of reference in computer science.
+
+This is the main reason why NumPy is faster than lists. Also it is optimized to work with latest CPU architectures.
+
+
+Which Language is NumPy written in?
+NumPy is a Python library and is written partially in Python, but most of the parts that require fast computation are written in C or C++.
+
+
+
+Installation of NumPy:
+C:\Users\Your Name>pip install numpy
+
+Import NumPy
+Once NumPy is installed, import it in your applications by adding the import keyword:
+
+import numpy
+Now NumPy is imported and ready to use.
+
+
+Example:
+import numpy
+
+arr = numpy.array([1, 2, 3, 4, 5])
+
+print(arr)
+
+
+
+NumPy as np
+NumPy is usually imported under the np alias.
+alias: In Python alias are an alternate name for referring to the same thing.
+
+
+Create an alias with the as keyword while importing:
+
+import numpy as np
+
+
+example:
+import numpy as np
+
+arr = np.array([1, 2, 3, 4, 5])
+
+print(arr)
+
+
+
+NumPy Version:-
+The version string is stored under __version__ attribute.
+example
+import numpy as np
+
+print(np.__version__)
+
+
+NumPy Creating Arrays:-
+
+Create a NumPy ndarray Object
+
+NumPy is used to work with arrays. The array object in NumPy is called ndarray.
+
+We can create a NumPy ndarray object by using the array() function.
+
+
+example:
+import numpy as np
+
+arr = np.array([1, 2, 3, 4, 5])
+
+print(arr)
+
+print(type(arr))
+
+o/p:[1 2 3 4 5]
+<class 'numpy.ndarray'>
+
+type(): This built-in Python function tells us the type of the object passed to it. Like in above code it shows that arr is numpy.ndarray type.
+To create an ndarray, we can pass a list, tuple or any array-like object into the array() method, and it will be converted into an ndarray:
+
+Use a tuple to create a NumPy array:
+import numpy as np
+
+arr = np.array((1, 2, 3, 4, 5))
+
+print(arr)
+
+o/p:
+[1 2 3 4 5]
+
+
+Dimensions in Arrays
+A dimension in arrays is one level of array depth (nested arrays).
+
+
+
+
+nested array: are arrays that have arrays as their elements.
+0-D Arrays
+0-D arrays, or Scalars, are the elements in an array. Each value in an array is a 0-D array.
+
+
+import numpy as np
+
+arr = np.array(42)
+
+print(arr)
+
+
+1-D Arrays
+An array that has 0-D arrays as its elements is called uni-dimensional or 1-D array.
+
+import numpy as np
+
+arr = np.array([1, 2, 3, 4, 5])
+
+print(arr)
+
+
+
+
+2-D Arrays
+An array that has 1-D arrays as its elements is called a 2-D array.
+
+These are often used to represent matrix or 2nd order tensors.
+
+NumPy has a whole sub module dedicated towards matrix operations called numpy.mat
+
+
+
+import numpy as np
+
+arr = np.array([[1, 2, 3], [4, 5, 6]])
+
+print(arr)
+
+
+3-D arrays
+An array that has 2-D arrays (matrices) as its elements is called 3-D array.
+
+import numpy as np
+
+arr = np.array([[[1, 2, 3], [4, 5, 6]], [[1, 2, 3], [4, 5, 6]]])
+
+print(arr)
+
+
+
+
+
+Check Number of Dimensions?
+NumPy Arrays provides the ndim attribute that returns an integer that tells us how many dimensions the array have.
+
+
+import numpy as np
+
+a = np.array(42)
+b = np.array([1, 2, 3, 4, 5])
+c = np.array([[1, 2, 3], [4, 5, 6]])
+d = np.array([[[1, 2, 3], [4, 5, 6]], [[1, 2, 3], [4, 5, 6]]])
+
+print(a.ndim)
+print(b.ndim)
+print(c.ndim)
+print(d.ndim)
+
+
+o/p:-
+0
+1
+2
+3
+
+
+
+
+NumPy Array Indexing:-
+
+Access Array Elements
+Array indexing is the same as accessing an array element.
+
+You can access an array element by referring to its index number.
+
+The indexes in NumPy arrays start with 0, meaning that the first element has index 0, and the second has index 1  and so on etc.
+
+import numpy as np
+
+arr = np.array([1, 2, 3, 4])
+
+print(arr[2])
+
+
+import numpy as np
+
+arr = np.array([1, 2, 3, 4])
+
+print(arr[2] + arr[3])
+
+
+
+NumPy Bitwise Operators:-
+
+
+1.bitwise_and	It is used to calculate the bitwise and operation between the corresponding array 
+                elements.
+2	bitwise_or	It is used to calculate the bitwise or operation between the corresponding array         
+                  elements.
+3	invert	    It is used to calculate the bitwise not the operation of the array elements.
+4	left_shift	It is used to shift the bits of the binary representation of the elements to the left.
+5	right_shift	It is used to shift the bits of the binary representation of the elements to the right
+
+
+The NumPy provides the bitwise_and() function which is used to calculate the bitwise_and operation of the two operands.
+
+The bitwise and operation is performed on the corresponding bits of the binary representation of the operands. If both the corresponding bit in the operands is set to 1, then only the resultant bit in the AND result will be set to 1 otherwise it will be set to 0.
+
+
+
+import numpy as np  
+  
+a = 10  
+b = 12  
+  
+print("binary representation of a:",bin(a))  
+print("binary representation of b:",bin(b))  
+print("Bitwise-and of a and b: ",np.bitwise_and(a,b))  
+
+binary representation of a: 0b1010
+binary representation of b: 0b1100
+Bitwise-and of a and b:  8
+1 1 =1
+0 1 =0
+1 0 =0
+0 0 =0
+8421
+1000
+
+
+
+
+import numpy as np  
+  
+a = 50  
+b = 90  
+print("binary representation of a:",bin(a))  
+print("binary representation of b:",bin(b))  
+print("Bitwise-or of a and b: ",np.bitwise_or(a,b)) 
+
+
+
+110010
+1011010
+122
+
+
+Invert operation
+It is used to calculate the bitwise not the operation of the given operand. The 2's complement is returned if the signed integer is passed in the function.
+
+
+
+import numpy as np  
+  
+arr = np.array([20],dtype = np.uint8)  
+print("Binary representation:",np.binary_repr(20,8))  
+  
+print(np.invert(arr))  
+  
+print("Binary representation: ", np.binary_repr(235,8))  
+
+
+
+1010
+0101
+   1
+
+
+
+   Binary representation: 00010100
+[235]
+Binary representation:  11101011 
+
+
+
+
+
+
+
+import numpy as np  
+  
+print("left shift of 20 by 3 bits",np.left_shift(20, 3))  
+  
+print("Binary representation of 20 in 8 bits",np.binary_repr(20, 8))  
+  
+print("Binary representation of 160 in 8 bits",np.binary_repr(160,8))  
+
+
+
+
+
+Right Shift Operation
+It shifts the bits in the binary representation of the operand to the right by the specified position. An equal number of 0s are appended from the left. Consider the following example.
+
+Example
+import numpy as np  
+  
+print("left shift of 20 by 3 bits",np.right_shift(20, 3))  
+  
+print("Binary representation of 20 in 8 bits",np.binary_repr(20, 8))  
+  
+print("Binary representation of 160 in 8 bits",np.binary_repr(160,8))  
+Output:
+
+left shift of 20 by 3 bits 2
+Binary representation of 20 in 8 bits 00010100
+Binary representation of 160 in 8 bits 10100000
+
+
+
+
+NumPy String Functions:-
+
+1 add()	It is used to concatenate the corresponding array elements (strings).
+2	multiply()	It returns the multiple copies of the specified string, i.e., if a string 'hello' is multiplied by 3 then, a string 'hello hello' is returned.
+3	center()	It returns the copy of the string where the original string is centered with the left and right padding filled with the specified number of fill characters.
+4	capitalize()	It returns a copy of the original string in which the first letter of the original string is converted to the Upper Case.
+5	title()	It returns the title cased version of the string, i.e., the first letter of each word of the string is converted into the upper case.
+6	lower()	It returns a copy of the string in which all the letters are converted into the lower case.
+7	upper()	It returns a copy of the string in which all the letters are converted into the upper case.
+9	split()	It returns a list of words in the string.
+9	splitlines()	It returns the list of lines in the string, breaking at line boundaries.
+10	strip()	Returns a copy of the string with the leading and trailing white spaces removed.
+11	join()	It returns a string which is the concatenation of all the strings specified in the given sequence.
+12	replace()	It returns a copy of the string by replacing all occurrences of a particular substring with the specified one.
+13	decode()	It is used to decode the specified string element-wise using the specified codec.
+14	encode()	It is used to encode the decoded string element-wise.
+
+
+
+import numpy as np   
+print("Concatenating two string arrays:")  
+print(np.char.add(['welcome','Hi'], [' to lavyait', ' read python'] ))  
+
+
+
+
+
+
+import numpy as np   
+print("Printing a string multiple times:")  
+print(np.char.multiply("hello ",3))  
+
+
+
+import numpy as np   
+print("Padding the string through left and right with the fill char *");  
+#np.char.center(string, width, fillchar)  
+print(np.char.center("lavyaithub", 20, '*'))  
+
+
+*****lavyaithub*****
+
+
+
+
+numpy.char.split() method example
+
+xx numpy as np   
+print("Splitting the String word by word..")  
+print(np.char.split("Welcome To lavya"),sep = " ")  
+
+
+['welcome','to','lavya']
+
+
+numpy.char.splitlines() method example
+
+import numpy as np   
+print("Splitting the String line by line..")  
+print(np.char.splitlines("Welcome\nTo\nlavya"))  
+
+
+
+numpy.char.strip() method example
+
+import numpy as np   
+str = "     welcome to lavya     "  
+print("Original String:",str)  
+print("Removing the leading and trailing whitespaces from the string")  
+print(np.char.strip(str))  
+
+
+
+numpy.char.encode() and decode() method example
+import numpy as np  
+enstr = np.char.encode("welcome to lavya", 'cp500')  
+dstr =np.char.decode(enstr, 'cp500')  
+print(enstr)  
+print(dstr)
+
+
+
+
+numpy functions:
+
+numpy.concatenate():-
+The concatenate() function is a function from the NumPy package. This function essentially combines NumPy arrays together. This function is basically used for joining two or more arrays of the same shape along a specified axis. There are the following things which are essential to keep in mind:
+
+NumPy's concatenate() is not like a traditional database join. It is like stacking NumPy arrays.
+This function can operate both vertically and horizontally. This means we can concatenate arrays together horizontally or vertically.
+
+
+
+
+The concatenate() function is usually written as np.concatenate(), but we can also write it as numpy.concatenate(). It depends on the way of importing the numpy package, either import numpy as np or import numpy, respectively.
+
+
+numpy.concatenate((a1, a2, ...), axis)
+This parameter defines the sequence of arrays. Here, a1, a2, a3 ... are the arrays which have the same shape, except in the dimension corresponding to the axis.  
+axis : int(optional)
+
+This parameter defines the axis along which the array will be joined. By default, its value is 0.
+
+
+import numpy as np  
+x=np.array([[1,2],[3,4]])  
+y=np.array([[12,30]])  
+z=np.concatenate((x,y),axis=0)  
+print(z)  
+
+1 2
+3 4
+12 30
+
+
+ numpy.concatenate() with axis=1
+
+import numpy as np  
+x=np.array([[1,2],[3,4]])  
+y=np.array([[12,30]])  
+z=np.concatenate((x,y.T), axis=1)  
+z  
+
+1 2 12
+3 4 30
+
+ '.T' used to change the rows into columns and columns into rows.
+
+
+
+ import numpy as np  
+x=np.array([[1,2],[3,4]])  
+y=np.array([[12,30]])  
+z=np.concatenate((x,y), axis=None)  
+print(z)
+
+
+
+  numpy.append() in Python
+
+  numpy.append() function is available in NumPy package. As the name suggests, append means adding something. The numpy.append() function is used to add or append new values to an existing numpy array. This function adds the new values at the end of the array.
+
+The numpy append() function is used to merge two arrays. It returns a new array, and the original array remains unchanged.
+
+
+numpy.append(arr, values, axis=None)  
+
+
+
+
+import numpy as np  
+a=np.array([[10, 20, 30], [40, 50, 60], [70, 80, 90]])  
+b=np.array([[11, 21, 31], [42, 52, 62], [73, 83, 93]])  
+c=np.append(a,b)  
+c  
+
+array([ 10,  20,  30,  40,  50,  60,  70,  80,  90, 11, 21, 31, 42, 52, 62, 73, 83,
+       93])
+
+
+
+ numpy.sum() in Python
+The numpy.sum() function is available in the NumPy package of Python. This function is used to compute the sum of all elements, the sum of each row, and the sum of each column of a given array.
+
+Essentially, this sum ups the elements of an array, takes the elements within a ndarray, and adds them together. It is also possible to add rows and column elements of an array. The output will be in the form of an array object.
+
+
+
+
+import numpy as np  
+a=np.array([0.4,0.5])  
+b=np.sum(a)  
+print(b)  
+
+import numpy as np  
+a=np.array([0.4,0.5,0.9,6.1])  
+x=np.sum(a, dtype=np.int32)  
+print(x) 
+
+
+import numpy as np  
+a=np.array([[1,4],[3,5]])  
+b=np.sum(a)  
+b  
+
+
+numpy.random() in Python:-
+
+The random is a module present in the NumPy library. This module contains the functions which are used for generating random numbers. This module contains some simple random data generation methods, some permutation and distribution functions, and random generator functions.
+
+
+
+import numpy as np  
+a=np.random.rand(5,2)  
+a  
+
+import numpy as np  
+a=np.random.randn(2,2)  
+a  
+
+
+import numpy as np  
+a=np.random.randint(3, size=10)  
+a  
+
+
+
+numpy.transpose() in Python:-
+
+The numpy.transpose() function is one of the most important functions in matrix multiplication. This function permutes or reserves the dimension of the given array and returns the modified array.
+
+The numpy.transpose() function changes the row elements into column elements and the column elements into row elements. The output of this function is a modified array of the original one.
+
+
+import numpy as np  
+a= np.arange(6).reshape((2,3))  
+print(a)
+b=np.transpose(a)  
+b  
+
+
+array([[0, 1, 2],
+       	[3, 4, 5]])
+
+array([[0, 3],
+       	[1, 4],
+       	[2, 5]])
+
+
+
+
+  import numpy as np  
+a= np.array([[1, 2], [4, 5], [7, 8]])  
+a  
+b=np.transpose(a, (1,0))  
+b   
+
+
+12
+45
+78
+
+147
+258
